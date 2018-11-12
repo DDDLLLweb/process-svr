@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server.iml" group="config-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" group="config-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" group="config-server" />
+      <module fileurl="file://$PROJECT_DIR$/process-svr.iml" filepath="$PROJECT_DIR$/process-svr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/process-svr_main.iml" filepath="$PROJECT_DIR$/.idea/modules/process-svr_main.iml" group="process-svr" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/process-svr_test.iml" filepath="$PROJECT_DIR$/.idea/modules/process-svr_test.iml" group="process-svr" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/register-center.iml" filepath="$PROJECT_DIR$/.idea/modules/register-center.iml" group="register-center" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/register-center/register-center_main.iml" filepath="$PROJECT_DIR$/.idea/modules/register-center/register-center_main.iml" group="register-center" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/register-center/register-center_test.iml" filepath="$PROJECT_DIR$/.idea/modules/register-center/register-center_test.iml" group="register-center" />
+    </modules>
+  </component>
+</project>
