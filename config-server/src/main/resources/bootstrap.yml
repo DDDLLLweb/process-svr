@@ -10,9 +10,19 @@ spring:
           uri: https://github.com/DDDLLLweb/process-config.git
           username: danfeng_online@163.com
           password: 502139ddf
-          search-paths: PS_SERVER_CONFIG
+          search-paths: '*{application}*' #使用占位符的形式进行目录搜索
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: dl.love.com
+    port: 5672
+    username: df
+    password: df
+
+
 server:
-  port: 0
+  port: 9090
 
 eureka:
   client:

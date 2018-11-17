@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-center.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-center.iml" group="auth-center" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-center/auth-center_main.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-center/auth-center_main.iml" group="auth-center" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-center/auth-center_test.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-center/auth-center_test.iml" group="auth-center" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server.iml" group="config-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" group="config-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" group="config-server" />

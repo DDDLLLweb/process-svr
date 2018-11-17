@@ -1,3 +1,24 @@
+
+jar {
+    baseName = 'register-center'
+    version =  '1.0.0'
+}
+
+task buildDocker(type: Docker, dependsOn: build) {
+    applicationName = jar.baseName
+    version = jar.version
+    tagVersion = jar.version
+    push = true
+    dockerfile = file('./Dockerfile')
+    registry = 'docker.io/df2docker'
+    doFirst {
+        copy {
+            from jar
+            into stageDir
+        }
+    }
+}
+
 dependencies {
     implementation('org.springframework.cloud:spring-cloud-starter-netflix-eureka-server')
 }

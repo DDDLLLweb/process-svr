@@ -5,6 +5,8 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="auth-center_main" target="1.8" />
+      <module name="auth-center_test" target="1.8" />
       <module name="config-server_main" target="1.8" />
       <module name="config-server_test" target="1.8" />
       <module name="process-svr_main" target="1.8" />

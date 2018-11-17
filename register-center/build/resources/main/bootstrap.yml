@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: register-center
+  profiles:
+    include: dev
+server:
+  port: 8761
+eureka:
+  instance:
+    prefer-ip-address: true
+    lease-expiration-duration-in-seconds: 15
+    lease-renewal-interval-in-seconds: 5
+    instance-id: ${spring.application.name}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:${server.port}/eureka/
+      register-with-eureka: true
+      fetch-registry: false
+      registry-fetch-interval-seconds: 5
+  server:
+    enable-self-preservation: true
+    eviction-interval-timer-in-ms: 3000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

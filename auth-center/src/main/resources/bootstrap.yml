@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: auth-center
+  cloud:
+    config:
+      label: master
+      name: auth-center
+      profile: dev
+      uri: http://localhost:9090
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: dl.love.com
+    port: 5672
+    username: df
+    password: df
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
