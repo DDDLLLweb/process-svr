@@ -2,56 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7614e28-46de-4acf-8812-b57f6371b6b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/auth-center/src/main/java/com/process/auth/core/ConfigClientRefreshAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-center/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-center/src/main/resources/logback-dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-center/src/main/resources/logback-prod.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-center/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/process/util/SecurityUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/ZuulServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/ConfigClientRefreshAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/api/PsZuulTokenApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/config/ZuulSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/config/csrf/PsCsrfFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/properties/PsZuulCorsProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/properties/PsZuulSecurityProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/dev/api/TestApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/logback-dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/logback-prod.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_security_2_0_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_config_5_0_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_core_5_0_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_web_5_0_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/auth-center/auth-center_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/auth-center/auth-center_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/auth-center/auth-center_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/auth-center/auth-center_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/process-svr_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/process-svr_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/process-svr_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/process-svr_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/register-center/register-center_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/register-center/register-center_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/register-center/register-center_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/register-center/register-center_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-center/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/auth-center/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-center/out/production/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-center/out/production/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-center/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-center/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/out/production/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/out/production/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/out/production/resources/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/out/production/resources/logback-dev.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/logback-dev.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register-center/src/main/resources/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/register-center/src/main/resources/logback-dev.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dev/attack-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/dev/attack-dev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dev/config-center-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/dev/config-center-dev.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -206,7 +160,7 @@
           <entry key="Dockerfile" value="7" />
           <entry key="class" value="8" />
           <entry key="factories" value="2" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="gradle" value="24" />
           <entry key="groovy" value="1" />
           <entry key="iml" value="2" />
@@ -225,7 +179,7 @@
           <entry key="Groovy" value="25" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="JAVA" value="82" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="XML" value="20" />
           <entry key="YAML" value="11" />
           <entry key="spring.factories" value="2" />
@@ -236,6 +190,7 @@
           <entry key="Dockerfile" value="889" />
           <entry key="dummy" value="15" />
           <entry key="factories" value="23" />
+          <entry key="gitignore" value="16" />
           <entry key="gradle" value="532" />
           <entry key="java" value="2363" />
           <entry key="sh" value="34" />
@@ -248,7 +203,7 @@
           <entry key="Dockerfile" value="825" />
           <entry key="Groovy" value="532" />
           <entry key="JAVA" value="2363" />
-          <entry key="PLAIN_TEXT" value="113" />
+          <entry key="PLAIN_TEXT" value="129" />
           <entry key="XML" value="45" />
           <entry key="YAML" value="500" />
           <entry key="spring.factories" value="23" />
@@ -259,6 +214,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/config/ZuulSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="369">
@@ -307,8 +271,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/config/csrf/PsCsrfFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -346,15 +310,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.0.9.RELEASE/b5bf7a5afa16536289550910efeef16f184a64ea/spring-security-web-5.0.9.RELEASE-sources.jar!/org/springframework/security/web/util/matcher/AndRequestMatcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -2079,7 +2034,6 @@
         <option value="$PROJECT_DIR$/auth-center/src/main/java/com/process/auth/dev/AuthProTestApi.java" />
         <option value="$PROJECT_DIR$/config-server/build.gradle" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/auth-center/src/main/java/com/process/auth/core/ConfigClientRefreshAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/auth-center/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/register-center/src/main/resources/logback-dev.xml" />
@@ -2114,6 +2068,7 @@
         <option value="$PROJECT_DIR$/zuul-server/build.gradle" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/properties/PsZuulSecurityProperties.java" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/config/ZuulSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -2141,128 +2096,6 @@
             <path>
               <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
               <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="zuul-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="zuul-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="zuul-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="zuul-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="zuul-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="zuul-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="zuul-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="zuul-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="zuul-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="zuul-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="csrf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="zuul-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="zuul-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="zuul-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2446,12 +2279,12 @@
       <workItem from="1542720519022" duration="692000" />
       <workItem from="1542808820622" duration="2418000" />
       <workItem from="1542868288590" duration="14907000" />
-      <workItem from="1542962483783" duration="5094000" />
+      <workItem from="1542962483783" duration="5475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75033000" />
+    <option name="totallyTimeSpent" value="75414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2466,7 +2299,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2814408" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2814408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -2479,10 +2312,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32947975" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="8" visible="true" weight="0.37551022" />
+      <window_info anchor="bottom" id="Run Dashboard" order="8" weight="0.37551022" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.327551" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4993895" weight="0.5214286" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4993895" visible="true" weight="0.5214286" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50061053" side_tool="true" weight="0.3283237" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3283237" />
       <window_info anchor="bottom" id="Build" order="14" sideWeight="0.4993895" weight="0.327551" />
@@ -2541,13 +2374,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config-server/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="74" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/logback-dev.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -2877,17 +2703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.0.9.RELEASE/b5bf7a5afa16536289550910efeef16f184a64ea/spring-security-web-5.0.9.RELEASE-sources.jar!/org/springframework/security/web/csrf/CsrfFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <element signature="e#6405#6406#0" expanded="true" />
-            <element signature="e#6471#6472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/properties/PsZuulSecurityProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -2908,16 +2723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/config/csrf/PsCsrfFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/config/ZuulSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -2925,6 +2730,34 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.0.9.RELEASE/b5bf7a5afa16536289550910efeef16f184a64ea/spring-security-web-5.0.9.RELEASE-sources.jar!/org/springframework/security/web/csrf/CsrfFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="e#6405#6406#0" expanded="true" />
+            <element signature="e#6471#6472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/config/csrf/PsCsrfFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
         </state>
       </provider>
     </entry>

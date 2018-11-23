@@ -147,3 +147,5 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+# logs
+logs/
