@@ -21,6 +21,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="register-center_main" />
+    <orderEntry type="module" module-name="commons_main" />
     <orderEntry type="library" name="Gradle: org.projectlombok:lombok:1.16.22" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:2.0.1.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-server:2.0.1.RELEASE" level="project" />

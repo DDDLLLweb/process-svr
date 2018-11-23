@@ -21,6 +21,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="process-svr_main" />
+    <orderEntry type="module" module-name="commons_main" />
     <orderEntry type="library" name="Gradle: org.projectlombok:lombok:1.16.22" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:2.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.0.6.RELEASE" level="project" />

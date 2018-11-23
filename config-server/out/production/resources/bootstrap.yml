@@ -10,7 +10,7 @@ spring:
           uri: https://github.com/DDDLLLweb/process-config.git
           username: danfeng_online@163.com
           password: 502139ddf
-          search-paths: '*{application}*'
+          search-paths: '*{application}*' #使用占位符的形式进行目录搜索
     bus:
       trace:
         enabled: true

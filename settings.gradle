@@ -1,4 +1,6 @@
 include 'register-center'
 include 'config-server'
 include 'auth-center'
+include 'zuul-server'
+include 'commons'
 

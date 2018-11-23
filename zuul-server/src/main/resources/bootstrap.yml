@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: zuul-server
+  profiles:
+    include: dev
+  cloud:
+    config:
+      label: master
+      name: zuul-server
+      profile: dev
+      uri: http://localhost:9090
+      refreshInterval: 600
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+      host: dl.love.com
+      port: 5672
+      username: df
+      password: df
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
