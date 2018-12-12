@@ -18,6 +18,7 @@ spring:
     port: 5672
     username: df
     password: df
+
 management:
   endpoints:
     web:
@@ -26,3 +27,4 @@ management:
   endpoint:
     health:
       show-details: always
+

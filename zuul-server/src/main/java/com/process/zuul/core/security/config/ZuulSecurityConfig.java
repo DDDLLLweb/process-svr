@@ -1,9 +1,10 @@
 package com.process.zuul.core.security.config;
 
-import com.process.util.SecurityUtil;
+import com.process.common.util.SecurityUtil;
 import com.process.zuul.core.security.config.csrf.PsCsrfFilter;
 import com.process.zuul.core.security.properties.PsZuulCorsProperties;
-import com.process.zuul.core.security.properties.PsZuulSecurityProperties;
+import com.process.zuul.core.security.properties.PsZuulCsrfProperties;
+import com.process.zuul.core.security.properties.PsZuulOauthProperties;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso;
@@ -23,16 +24,17 @@ import org.springframework.web.filter.CorsFilter;
  */
 @EnableOAuth2Sso
 @EnableWebSecurity
-@EnableConfigurationProperties({PsZuulCorsProperties.class, PsZuulSecurityProperties.class})
+@EnableConfigurationProperties({PsZuulCorsProperties.class, PsZuulCsrfProperties.class,PsZuulOauthProperties.class})
 @RequiredArgsConstructor
 public class ZuulSecurityConfig extends WebSecurityConfigurerAdapter {
 
     private final PsZuulCorsProperties psZuulCorsProperties;
-    private final PsZuulSecurityProperties psZuulSecurityProperties;
+    private final PsZuulCsrfProperties psZuulCsrfProperties;
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.addFilterAfter(new PsCsrfFilter(SecurityUtil::checkXsrfToken,psZuulSecurityProperties.isEnable()), CsrfFilter.class).csrf();
+        // CSRF FILTER
+        http.addFilterBefore(new PsCsrfFilter(SecurityUtil::checkXsrfToken,psZuulCsrfProperties.isEnable()), CsrfFilter.class).csrf().disable();
         http.headers().frameOptions().sameOrigin();
         http.cors();
     }

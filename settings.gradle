@@ -3,4 +3,5 @@ include 'config-server'
 include 'auth-center'
 include 'zuul-server'
 include 'commons'
+include 'backend-server'
 

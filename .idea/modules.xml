@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-center.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-center.iml" group="auth-center" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-center/auth-center_main.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-center/auth-center_main.iml" group="auth-center" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-center/auth-center_test.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-center/auth-center_test.iml" group="auth-center" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend-server.iml" filepath="$PROJECT_DIR$/.idea/modules/backend-server.iml" group="backend-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend-server/backend-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/backend-server/backend-server_main.iml" group="backend-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend-server/backend-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/backend-server/backend-server_test.iml" group="backend-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/commons.iml" filepath="$PROJECT_DIR$/.idea/modules/commons.iml" group="commons" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/commons/commons_main.iml" filepath="$PROJECT_DIR$/.idea/modules/commons/commons_main.iml" group="commons" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/commons/commons_test.iml" filepath="$PROJECT_DIR$/.idea/modules/commons/commons_test.iml" group="commons" />

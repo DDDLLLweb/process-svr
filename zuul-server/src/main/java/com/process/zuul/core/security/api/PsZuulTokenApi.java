@@ -1,19 +1,28 @@
 package com.process.zuul.core.security.api;
 
-import com.process.util.SecurityUtil;
+import com.process.common.util.SecurityUtil;
+import com.process.zuul.core.security.entity.PsClientCredentials;
+import com.process.zuul.core.security.properties.PsZuulOauthProperties;
+import com.process.zuul.core.security.rpc.PsOAuthClient;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Map;
 
 /**
  * @author Danfeng
  * @since 2018/11/22
  */
 @RestController
+@RequiredArgsConstructor
+@RequestMapping("/api/sec")
 public class PsZuulTokenApi {
+
+    private final PsOAuthClient psOAuthClient;
+    private final PsZuulOauthProperties zuulOauthProperties;
 
     /**
      * csrf
@@ -22,10 +31,21 @@ public class PsZuulTokenApi {
      * @param response
      * @return
      */
-    @GetMapping("/api/sec/csrf")
+    @GetMapping("/csrf")
     public ResponseEntity csrf(HttpServletRequest request, HttpServletResponse response) {
-        SecurityUtil.createCsrfToken(request, response);
+        SecurityUtil.createXsrfToken(request, response);
         return ResponseEntity.ok().build();
+    }
+
+    /**
+     * 系统登陆
+     * 根据用户名登录
+     * 采用oauth2密码模式获取access_token和refresh_token
+     */
+    @PostMapping("/login")
+    public Map<String, Object> login(@RequestBody PsClientCredentials credentials) {
+        credentials.decorator(zuulOauthProperties);
+        return psOAuthClient.accessToken(credentials.tokenParams());
     }
 
 }

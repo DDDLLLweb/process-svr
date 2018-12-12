@@ -5,6 +5,8 @@ dependencies {
     compile('org.springframework.cloud:spring-cloud-starter-security')
     compile('org.springframework.cloud:spring-cloud-starter-oauth2')
     compile('org.springframework.cloud:spring-cloud-starter-openfeign')
+    compile('io.github.openfeign:feign-okhttp')
     compile('org.springframework.cloud:spring-cloud-starter-bus-amqp')
     compile('io.jsonwebtoken:jjwt:0.9.1')
+    compile project(":commons")
 }
