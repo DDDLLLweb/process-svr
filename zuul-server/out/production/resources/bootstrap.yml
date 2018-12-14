@@ -26,7 +26,3 @@ management:
   endpoint:
     health:
       show-details: always
-
-ribbon:
-  eureka:
-    enabled: true

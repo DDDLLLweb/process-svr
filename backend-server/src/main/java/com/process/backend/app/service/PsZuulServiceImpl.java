@@ -32,4 +32,10 @@ public class PsZuulServiceImpl implements PsZuulService {
         return zuulMapper.routes();
     }
 
+    @Override
+    public void refresh() {
+        redisTemplate.delete(CACHE_ROUTE_KEY);
+        initZuulRoutes();
+    }
+
 }

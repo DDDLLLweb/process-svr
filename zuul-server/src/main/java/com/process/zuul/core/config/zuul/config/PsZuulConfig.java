@@ -3,7 +3,6 @@ package com.process.zuul.core.config.zuul.config;
 import com.process.common.domain.PsZuulRouter;
 import com.process.zuul.core.config.zuul.domain.PsDbRouterProvider;
 import com.process.zuul.core.config.zuul.domain.PsRouterLocator;
-import com.process.zuul.core.security.rpc.PsBackendClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -33,7 +32,6 @@ import java.util.List;
 public class PsZuulConfig {
 
     private final DispatcherServletPath servletPath;
-    private final PsBackendClient backendClient;
     private final ZuulProperties properties;
     private final RedisTemplate<String, List<PsZuulRouter>> redisTemplate;
 

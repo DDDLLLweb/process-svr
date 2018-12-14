@@ -20,7 +20,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableDiscoveryClient
 @EnableZuulProxy
 @EnableFeignClients
-@EnableHystrix
 public class ZuulServerApplication {
     public static void main(String[] args) {
         SpringApplication.run(ZuulServerApplication.class, args);

@@ -2,26 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7614e28-46de-4acf-8812-b57f6371b6b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsRouterLocator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-center/src/main/java/com/process/auth/core/security/service/PsRedisClientDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-center/src/main/java/com/process/auth/core/security/service/PsRedisClientDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-server/out/production/classes/com/process/backend/core/database/config/PsMapperConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/out/production/classes/com/process/backend/core/database/config/PsMapperConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/mapper/PsZuulMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/mapper/PsZuulMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-center/out/production/classes/com/process/auth/core/security/service/PsRedisClientDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-center/out/production/classes/com/process/auth/core/security/service/PsRedisClientDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-server/out/production/classes/com/process/backend/app/api/PsZuulApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/out/production/classes/com/process/backend/app/api/PsZuulApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-server/out/production/classes/com/process/backend/app/service/PsZuulService.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/out/production/classes/com/process/backend/app/service/PsZuulService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-server/out/production/classes/com/process/backend/app/service/PsZuulServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/out/production/classes/com/process/backend/app/service/PsZuulServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/api/PsZuulApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/api/PsZuulApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/service/PsZuulService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/service/PsZuulService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/service/PsZuulServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/service/PsZuulServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/core/database/config/PsDatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/core/database/config/PsDatabaseConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/core/database/config/PsMapperConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/core/database/config/PsMapperConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/process/common/domain/PsZuulRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/process/common/domain/PsZuulRouter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/out/production/classes/com/process/zuul/core/config/global/PsWebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/out/production/classes/com/process/zuul/core/config/global/PsWebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/out/production/classes/com/process/zuul/core/security/api/PsZuulTokenApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/out/production/classes/com/process/zuul/core/security/api/PsZuulTokenApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/out/production/classes/com/process/zuul/ZuulServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/out/production/classes/com/process/zuul/ZuulServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/out/production/classes/com/process/zuul/core/config/zuul/config/PsZuulConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/out/production/classes/com/process/zuul/core/config/zuul/config/PsZuulConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/out/production/classes/com/process/zuul/core/config/zuul/domain/PsRouterLocator.class" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/out/production/classes/com/process/zuul/core/config/zuul/domain/PsRouterLocator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zuul-server/out/production/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/out/production/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/global/PsWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/global/PsWebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/out/production/resources/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/out/production/resources/logback-dev.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/ZuulServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/ZuulServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/config/PsZuulConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/config/PsZuulConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsAbstractRouterLocaterResolver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsDbRouterProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsDbRouterProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsRouterProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsRouterProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/api/PsZuulTokenApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/api/PsZuulTokenApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/rpc/PsBackendClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/rpc/PsBackendClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsRouterLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsRouterLocator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/resources/logback-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/logback-dev.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -120,41 +118,42 @@
           <entry key="project.open.time.1" value="14" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Dockerfile" value="10" />
-          <entry key="class" value="15" />
+          <entry key="class" value="16" />
           <entry key="factories" value="6" />
           <entry key="gitignore" value="3" />
-          <entry key="gradle" value="70" />
+          <entry key="gradle" value="71" />
           <entry key="groovy" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="1013" />
+          <entry key="java" value="1075" />
           <entry key="json" value="1" />
           <entry key="log" value="3" />
           <entry key="sh" value="3" />
-          <entry key="xml" value="21" />
-          <entry key="yml" value="30" />
+          <entry key="xml" value="24" />
+          <entry key="yml" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="ANSI Aware" value="3" />
-          <entry key="CLASS" value="15" />
+          <entry key="CLASS" value="16" />
           <entry key="Dockerfile" value="6" />
-          <entry key="Groovy" value="71" />
+          <entry key="Groovy" value="72" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="1013" />
+          <entry key="JAVA" value="1075" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="XML" value="21" />
-          <entry key="YAML" value="30" />
+          <entry key="XML" value="24" />
+          <entry key="YAML" value="33" />
           <entry key="spring.factories" value="6" />
         </counts>
       </usages-collector>
@@ -165,20 +164,20 @@
           <entry key="factories" value="29" />
           <entry key="gitignore" value="16" />
           <entry key="gradle" value="986" />
-          <entry key="java" value="11345" />
+          <entry key="java" value="11498" />
           <entry key="sh" value="34" />
-          <entry key="xml" value="66" />
-          <entry key="yml" value="740" />
+          <entry key="xml" value="73" />
+          <entry key="yml" value="749" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="854" />
           <entry key="Groovy" value="986" />
-          <entry key="JAVA" value="11345" />
+          <entry key="JAVA" value="11498" />
           <entry key="PLAIN_TEXT" value="205" />
-          <entry key="XML" value="66" />
-          <entry key="YAML" value="740" />
+          <entry key="XML" value="73" />
+          <entry key="YAML" value="749" />
           <entry key="spring.factories" value="29" />
         </counts>
       </usages-collector>
@@ -186,120 +185,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsRouterProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsDbRouterProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/config/PsZuulConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+            <state relative-caret-position="380">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1873#1874#0" expanded="true" />
+                <element signature="e#1933#1934#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/2.0.1.RELEASE/1e764d2861814bf84825dc7f15d6cf9e6355eff2/spring-cloud-context-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/context/named/NamedContextFactory.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/SimpleRouteLocator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+            <state relative-caret-position="194">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
+              <folding>
+                <element signature="e#5195#5196#0" expanded="true" />
+                <element signature="e#5233#5234#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/global/PsWebConfig.java">
+        <entry file="file://$PROJECT_DIR$/auth-center/src/main/java/com/process/auth/app/sys/api/PsAppUserApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="187">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/api/PsZuulApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/core/database/config/PsDatabaseConfig.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/service/PsZuulServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/ZuulServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
-              <folding>
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/mapper/PsZuulMapper.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/CompositeRouteLocator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/process/common/domain/PsZuulRouter.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/pre/PreDecorationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="194">
+              <caret line="190" selection-start-line="190" selection-end-line="190" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.10.RELEASE/c2ec0079b3e8cc640f4ae2647a878d5dea05f949/spring-context-5.0.10.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.zuul/zuul-core/1.3.1/87ccf7a5d7a2c2884732347efb5b4ba91547b76d/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/ZuulFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="374" column="17" selection-start-line="374" selection-start-column="17" selection-end-line="374" selection-end-column="17" />
-              <folding>
-                <element signature="e#13482#13483#0" expanded="true" />
-                <element signature="e#13514#13515#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/logback-dev.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -316,11 +301,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>emp</find>
-      <find>feign.</find>
-      <find>invalid_client</find>
-      <find>INVALID_CLIENT</find>
-      <find>Bad client credentials</find>
       <find>attemptAuthentication</find>
       <find>authenticate</find>
       <find>loadAllClientToCache</find>
@@ -346,6 +326,11 @@
       <find>refresh</find>
       <find>ZuulRefreshListener</find>
       <find>setDirty</find>
+      <find>backend</find>
+      <find>Flipping property:</find>
+      <find>DynamicServerListLoadBalancer</find>
+      <find>backend-server</find>
+      <find>return</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2282,7 +2267,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/auth-center/src/main/java/com/process/auth/core/config/database/domain/PagingResult.java" />
         <option value="$PROJECT_DIR$/auth-center/src/main/java/com/process/auth/app/sys/mapper/PsAppUserMapper.java" />
         <option value="$PROJECT_DIR$/auth-center/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/commons/src/main/java/com/process/common/domain/Sortable.java" />
@@ -2301,14 +2285,11 @@
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/feign/config/PsFeignConfig.java" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/feign/domain/PsFeignProperties.java" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/feign/domain/PsFeignOkHttpProperties.java" />
-        <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/ZuulServerApplication.java" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/RouterProvider.java" />
         <option value="$PROJECT_DIR$/backend-server/build.gradle" />
         <option value="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/BackendServerApplication.java" />
-        <option value="$PROJECT_DIR$/backend-server/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/rpc/PsOAuthClient.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/service/PsZuulService.java" />
         <option value="$PROJECT_DIR$/commons/src/main/java/com/process/common/domain/CodeName.java" />
         <option value="$PROJECT_DIR$/commons/src/main/java/com/process/common/domain/OpResult.java" />
         <option value="$PROJECT_DIR$/commons/src/main/java/com/process/common/util/WebUtil.java" />
@@ -2318,21 +2299,25 @@
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsRouterLocaterResolver.java" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsCustomRouteLocator.java" />
         <option value="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/mapper/PsZuulMapper.java" />
-        <option value="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/api/PsZuulApi.java" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/feign/config/PsFeignOkHttpConfig.java" />
-        <option value="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/api/PsZuulTokenApi.java" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsRouterProvider.java" />
         <option value="$PROJECT_DIR$/auth-center/src/main/java/com/process/auth/core/security/service/PsRedisClientDetailsService.java" />
-        <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsRouterLocator.java" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/rpc/PsBackendClient.java" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/feign/config/FeignMappingDefaultConfiguration.java" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/global/PsWebConfig.java" />
         <option value="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/core/database/config/PsDatabaseConfig.java" />
-        <option value="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/service/PsZuulServiceImpl.java" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsDbRouterProvider.java" />
-        <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/config/PsZuulConfig.java" />
         <option value="$PROJECT_DIR$/commons/src/main/java/com/process/common/domain/PsZuulRouter.java" />
+        <option value="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/service/PsZuulService.java" />
+        <option value="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/service/PsZuulServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsRouterLocator.java" />
+        <option value="$PROJECT_DIR$/backend-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/resources/logback-dev.xml" />
+        <option value="$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/api/PsZuulApi.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/ZuulServerApplication.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/config/PsZuulConfig.java" />
       </list>
     </option>
   </component>
@@ -2342,9 +2327,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="51" />
-    <option name="y" value="48" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="70" />
+    <option name="y" value="264" />
     <option name="width" value="1629" />
     <option name="height" value="957" />
   </component>
@@ -2357,6 +2342,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2402,6 +2388,39 @@
             <path>
               <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
               <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="auth-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="auth-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="auth-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="backend-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -2453,39 +2472,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
               <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="backend-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
               <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="backend-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="process-svr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="backend-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="register-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="process-svr" type="b2602c69:ProjectViewProjectNode" />
@@ -2687,7 +2684,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2695,7 +2691,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="ApplicationLis&#9;PSI&#9;JAVA://org.springframework.context.ApplicationListener&#10;DomainExtractingServerList&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList&#10;PsBackendClient&#9;FILE&#9;file:///Users/diaodanfeng/Desktop/workspace/process/process-svr/zuul-server/src/main/java/com/process/zuul/core/security/rpc/PsBackendClient.java&#10;ZuulHandlerMapping&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/web/ZuulHandlerMapping.java&#10;Zuul&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.java&#10;CompositeRouteLocator&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/CompositeRouteLocator.java&#10;Zu&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.java&#10;Sim&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/SimpleRouteLocator.java&#10;Tokene&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpoint&#10;SimpleRouteLocator&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.zuul.filters.SimpleRouteLocator&#10;TokenEndpoint&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenKeyEndpoint&#10;TokenEn&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpoint&#10;InternalAuthenticationServiceException&#9;PSI&#9;JAVA://org.springframework.security.authentication.InternalAuthenticationServiceException&#10;OAuth2ExceptionRenderer&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.error.OAuth2ExceptionRenderer&#10;OAuth2E&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/963dee6004e5969511d594269af42b9cfc13a19f/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/client/http/OAuth2ErrorHandler.class&#10;ResourceOwnerPasswordTokenGranter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.password.ResourceOwnerPasswordTokenGranter&#10;User&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.0.9.RELEASE/b5bf7a5afa16536289550910efeef16f184a64ea/spring-security-web-5.0.9.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;UserPas&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter&#10;O&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/2fc46ad11050219e1d45663a9f872d9f773e19ba/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/client/ClientCredentialsTokenEndpointFilter.java&#10;OAuth2Exception&#9;PSI&#9;JAVA://org.springframework.security.oauth2.common.exceptions.OAuth2Exception&#10;Token&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/2fc46ad11050219e1d45663a9f872d9f773e19ba/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.java&#10;InvalidGrantException&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/2fc46ad11050219e1d45663a9f872d9f773e19ba/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/common/exceptions/InvalidGrantException.java&#10;ClientFilter&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/963dee6004e5969511d594269af42b9cfc13a19f/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/provider/client/ClientCredentialsTokenEndpointFilter.class&#10;OAuthClientFilter&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/963dee6004e5969511d594269af42b9cfc13a19f/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/client/filter/OAuth2ClientContextFilter.class&#10;OAuthC&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.6.RELEASE/ba7cdc47aee11fee86f9737a18c33a1ccf64b3ac/spring-boot-autoconfigure-2.0.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/security/oauth2/client/OAuth2ClientAutoConfiguration.java&#10;Client&#9;PSI&#9;JAVA://com.process.zuul.core.security.rpc.PsOAuthClient&#10;Toen&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpoint&#10;RetryableException&#9;PSI&#9;JAVA://feign.RetryableException&#10;D&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.6.RELEASE/ba7cdc47aee11fee86f9737a18c33a1ccf64b3ac/spring-boot-autoconfigure-2.0.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java&#10;Da&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/2.7.9/48612687e0f772c4c26ae70e0dff9b1433faf484/HikariCP-2.7.9-sources.jar!/com/zaxxer/hikari/HikariDataSource.java&#10;HikariDataSource&#9;PSI&#9;JAVA://com.zaxxer.hikari.HikariDataSource&#10;com.zaxxer.hikari.HikariDataSource&#9;PSI&#9;JAVA://com.zaxxer.hikari.HikariDataSource&#10;con&#9;FILE&#9;file:///Users/diaodanfeng/Desktop/workspace/process/process-svr/auth-center/src/config.gradle&#10;ClientC&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/2fc46ad11050219e1d45663a9f872d9f773e19ba/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/client/ClientCredentialsTokenEndpointFilter.java&#10;Dao&#9;PSI&#9;JAVA://org.springframework.security.authentication.dao.DaoAuthenticationProvider&#10;ClientCredentialsTokenEndpointFilter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter&#10;TokenEndpointFilter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpointAuthenticationFilter&#10;AuthenticationManager&#9;PSI&#9;JAVA://org.springframework.security.authentication.AuthenticationManager&#10;Oauth2E&#9;PSI&#9;JAVA://org.springframework.security.oauth2.common.exceptions.OAuth2Exception&#10;ClientD&#9;FILE&#9;file:///Users/diaodanfeng/Desktop/workspace/process/process-svr/auth-center/src/main/java/com/process/auth/core/service/PsRedisClientDetailsService.java&#10;Authent&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.0.9.RELEASE/b5bf7a5afa16536289550910efeef16f184a64ea/spring-security-web-5.0.9.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;Oauth2&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.error.OAuth2AccessDeniedHandler&#10;Filter&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.34/d1ae2dbbd905b24f7ab2b11833d41c1e38aa95f0/tomcat-embed-core-8.5.34-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java&#10;Auth&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/2fc46ad11050219e1d45663a9f872d9f773e19ba/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/web/configurers/AuthorizationServerEndpointsConfigurer.java&#10;Feign&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-openfeign-core/2.0.1.RELEASE/ad3d5c30e8eaa31bfb5cc35cd14c5d1737ad560/spring-cloud-openfeign-core-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientsConfiguration.java&#10;FeignClientsConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.openfeign.FeignClientsConfiguration&#10;DefaultFeignCon&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-openfeign-core/2.0.1.RELEASE/92dce6abc7da44d76a824ecaa75881f92adfc885/spring-cloud-openfeign-core-2.0.1.RELEASE.jar!/org/springframework/cloud/openfeign/ribbon/DefaultFeignLoadBalancedConfiguration.class&#10;to&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/2fc46ad11050219e1d45663a9f872d9f773e19ba/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.java&#10;token&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/2fc46ad11050219e1d45663a9f872d9f773e19ba/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/TokenGranter.java&#10;ClientDe&#9;FILE&#9;file:///Users/diaodanfeng/Desktop/workspace/process/process-svr/auth-center/src/main/java/com/process/auth/core/service/PsRedisClientDetailsService.java" />
+    <property name="SearchEverywhereHistoryKey" value="ZuulProperties&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/80668296eac08bc69139f12b9709c7c0b7d61684/spring-cloud-netflix-zuul-2.0.1.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class&#10;SpringClientFactory&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.SpringClientFactory&#10;AnnotationConfigApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.annotation.AnnotationConfigApplicationContext&#10;DynamicServerListLoadBalancer&#9;PSI&#9;JAVA://com.netflix.loadbalancer.DynamicServerListLoadBalancer&#10;ChainedDynamicProperty&#9;PSI&#9;JAVA://com.netflix.config.ChainedDynamicProperty&#10;ZuulHandlerMapping&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/web/ZuulHandlerMapping.java&#10;ZuulController&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.zuul.web.ZuulController&#10;ApplicationLis&#9;PSI&#9;JAVA://org.springframework.context.ApplicationListener&#10;DomainExtractingServerList&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList&#10;PsBackendClient&#9;FILE&#9;file:///Users/diaodanfeng/Desktop/workspace/process/process-svr/zuul-server/src/main/java/com/process/zuul/core/security/rpc/PsBackendClient.java&#10;Zuul&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.java&#10;CompositeRouteLocator&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/CompositeRouteLocator.java&#10;Zu&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.java&#10;Sim&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/SimpleRouteLocator.java&#10;Tokene&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpoint&#10;SimpleRouteLocator&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.zuul.filters.SimpleRouteLocator&#10;TokenEndpoint&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenKeyEndpoint&#10;TokenEn&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpoint&#10;InternalAuthenticationServiceException&#9;PSI&#9;JAVA://org.springframework.security.authentication.InternalAuthenticationServiceException&#10;OAuth2ExceptionRenderer&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.error.OAuth2ExceptionRenderer&#10;OAuth2E&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/963dee6004e5969511d594269af42b9cfc13a19f/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/client/http/OAuth2ErrorHandler.class&#10;ResourceOwnerPasswordTokenGranter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.password.ResourceOwnerPasswordTokenGranter&#10;User&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.0.9.RELEASE/b5bf7a5afa16536289550910efeef16f184a64ea/spring-security-web-5.0.9.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;UserPas&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter&#10;O&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/2fc46ad11050219e1d45663a9f872d9f773e19ba/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/client/ClientCredentialsTokenEndpointFilter.java&#10;OAuth2Exception&#9;PSI&#9;JAVA://org.springframework.security.oauth2.common.exceptions.OAuth2Exception&#10;Token&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/2fc46ad11050219e1d45663a9f872d9f773e19ba/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.java&#10;InvalidGrantException&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/2fc46ad11050219e1d45663a9f872d9f773e19ba/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/common/exceptions/InvalidGrantException.java&#10;ClientFilter&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/963dee6004e5969511d594269af42b9cfc13a19f/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/provider/client/ClientCredentialsTokenEndpointFilter.class&#10;OAuthClientFilter&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/963dee6004e5969511d594269af42b9cfc13a19f/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/client/filter/OAuth2ClientContextFilter.class&#10;OAuthC&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.6.RELEASE/ba7cdc47aee11fee86f9737a18c33a1ccf64b3ac/spring-boot-autoconfigure-2.0.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/security/oauth2/client/OAuth2ClientAutoConfiguration.java&#10;Client&#9;PSI&#9;JAVA://com.process.zuul.core.security.rpc.PsOAuthClient&#10;Toen&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpoint&#10;RetryableException&#9;PSI&#9;JAVA://feign.RetryableException&#10;D&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.6.RELEASE/ba7cdc47aee11fee86f9737a18c33a1ccf64b3ac/spring-boot-autoconfigure-2.0.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java&#10;Da&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/2.7.9/48612687e0f772c4c26ae70e0dff9b1433faf484/HikariCP-2.7.9-sources.jar!/com/zaxxer/hikari/HikariDataSource.java&#10;HikariDataSource&#9;PSI&#9;JAVA://com.zaxxer.hikari.HikariDataSource&#10;com.zaxxer.hikari.HikariDataSource&#9;PSI&#9;JAVA://com.zaxxer.hikari.HikariDataSource&#10;con&#9;FILE&#9;file:///Users/diaodanfeng/Desktop/workspace/process/process-svr/auth-center/src/config.gradle&#10;ClientC&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/2fc46ad11050219e1d45663a9f872d9f773e19ba/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/client/ClientCredentialsTokenEndpointFilter.java&#10;Dao&#9;PSI&#9;JAVA://org.springframework.security.authentication.dao.DaoAuthenticationProvider&#10;ClientCredentialsTokenEndpointFilter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter&#10;TokenEndpointFilter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.TokenEndpointAuthenticationFilter&#10;AuthenticationManager&#9;PSI&#9;JAVA://org.springframework.security.authentication.AuthenticationManager&#10;Oauth2E&#9;PSI&#9;JAVA://org.springframework.security.oauth2.common.exceptions.OAuth2Exception&#10;ClientD&#9;FILE&#9;file:///Users/diaodanfeng/Desktop/workspace/process/process-svr/auth-center/src/main/java/com/process/auth/core/service/PsRedisClientDetailsService.java&#10;Authent&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.0.9.RELEASE/b5bf7a5afa16536289550910efeef16f184a64ea/spring-security-web-5.0.9.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java&#10;Oauth2&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.error.OAuth2AccessDeniedHandler&#10;Filter&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.34/d1ae2dbbd905b24f7ab2b11833d41c1e38aa95f0/tomcat-embed-core-8.5.34-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java&#10;Auth&#9;FILE&#9;jar:///Users/diaodanfeng/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/2fc46ad11050219e1d45663a9f872d9f773e19ba/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/web/configurers/AuthorizationServerEndpointsConfigurer.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -2938,6 +2934,7 @@
       <workItem from="1544516033070" duration="9597000" />
       <workItem from="1544537382204" duration="16435000" />
       <workItem from="1544666358755" duration="26442000" />
+      <workItem from="1544751947212" duration="10052000" />
     </task>
     <servers />
   </component>
@@ -2974,7 +2971,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230103000" />
+    <option name="totallyTimeSpent" value="240155000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2989,8 +2986,8 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.24420024" />
-      <window_info id="Structure" order="1" sideWeight="0.5008026" side_tool="true" weight="0.24114774" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4968254" visible="true" weight="0.24725275" />
+      <window_info id="Structure" order="1" sideWeight="0.5031746" side_tool="true" weight="0.24725275" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -3002,10 +2999,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.498779" visible="true" weight="0.35714287" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.498779" visible="true" weight="0.23979592" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.327551" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4993895" weight="0.29387754" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4993895" weight="0.38265306" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.501221" side_tool="true" weight="0.3642857" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.327551" />
       <window_info anchor="bottom" id="Build" order="14" sideWeight="0.4993895" weight="0.327551" />
@@ -3121,16 +3118,16 @@
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/CompositeRouteLocator.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsDbRouterProvider.java</url>
+          <url>file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/global/PsWebExceptionHandler.java</url>
           <line>32</line>
           <properties />
-          <option name="timeStamp" value="91" />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/global/PsWebExceptionHandler.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="110" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -3145,251 +3142,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/discovery/PatternServiceRouteMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsRouterLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4869#4870#0" expanded="true" />
-            <element signature="e#4923#4924#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.10.RELEASE/e7ad464a2a010d810d69e37660bb2bc3e218490f/spring-webmvc-5.0.10.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13899">
-          <caret line="342" column="45" lean-forward="true" selection-start-line="342" selection-start-column="45" selection-end-line="342" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="256" column="55" selection-start-line="212" selection-start-column="4" selection-end-line="256" selection-end-column="55" />
-          <folding>
-            <element signature="e#19865#19866#0" expanded="true" />
-            <element signature="e#19892#19893#0" expanded="true" />
-            <element signature="e#20452#20453#0" expanded="true" />
-            <element signature="e#20481#20482#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.6.RELEASE/ba7cdc47aee11fee86f9737a18c33a1ccf64b3ac/spring-boot-autoconfigure-2.0.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/DispatcherServletPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/2.0.1.RELEASE/d8a482beab9055986b8de8c3b2458e4d94713aab/spring-cloud-commons-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/client/DefaultServiceInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/2.0.1.RELEASE/d8a482beab9055986b8de8c3b2458e4d94713aab/spring-cloud-commons-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/client/hypermedia/StaticServiceInstanceProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/2.0.1.RELEASE/d8a482beab9055986b8de8c3b2458e4d94713aab/spring-cloud-commons-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/client/ServiceInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-center/src/main/java/com/process/auth/AuthCenterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/feign/domain/PsFeignOkHttpProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-client/2.0.1.RELEASE/1b8a0ba74e27364241acfbea5dc9837919468bf2/spring-cloud-netflix-eureka-client-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/eureka/DomainExtractingServerList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/discovery/DiscoveryClientRouteLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6109#6110#0" expanded="true" />
-            <element signature="e#6163#6164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.10.RELEASE/e7ad464a2a010d810d69e37660bb2bc3e218490f/spring-webmvc-5.0.10.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractHandlerMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1312">
-          <caret line="225" column="27" lean-forward="true" selection-start-line="225" selection-start-column="27" selection-end-line="225" selection-end-column="27" />
-          <folding>
-            <element signature="e#8262#8263#0" expanded="true" />
-            <element signature="e#8287#8288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.openfeign/feign-core/9.5.1/faa6c7350a9179add7f0ab3e99cc88300528abe6/feign-core-9.5.1-sources.jar!/feign/ReflectiveFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-openfeign-core/2.0.1.RELEASE/ad3d5c30e8eaa31bfb5cc35cd14c5d1737ad560/spring-cloud-openfeign-core-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/ribbon/LoadBalancerFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-          <folding>
-            <element signature="e#3145#3146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-openfeign-core/2.0.1.RELEASE/ad3d5c30e8eaa31bfb5cc35cd14c5d1737ad560/spring-cloud-openfeign-core-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/ribbon/CachingSpringLoadBalancerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.openfeign/feign-core/9.5.1/faa6c7350a9179add7f0ab3e99cc88300528abe6/feign-core-9.5.1-sources.jar!/feign/SynchronousMethodHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-ribbon/2.0.1.RELEASE/3e4e802e091754048bb0e5ab9adc09a1ece8f0b/spring-cloud-netflix-ribbon-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/SpringClientFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#2247#2248#0" expanded="true" />
-            <element signature="e#3666#3667#0" expanded="true" />
-            <element signature="e#3702#3703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.0.6.RELEASE/c4f8288a1200b4431d1dd61b1998b705a8b137a8/spring-boot-2.0.6.RELEASE-sources.jar!/org/springframework/boot/builder/ParentContextApplicationContextInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/api/PsZuulApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-center/src/main/java/com/process/auth/core/security/service/PsUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-center/src/main/java/com/process/auth/core/security/service/PsRedisClientDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/2.0.11.RELEASE/422ca14ce09ce818f81ebd72c4d99a7e0d18c3d8/spring-data-redis-2.0.11.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="722" column="9" selection-start-line="722" selection-start-column="9" selection-end-line="722" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/2.0.11.RELEASE/422ca14ce09ce818f81ebd72c4d99a7e0d18c3d8/spring-data-redis-2.0.11.RELEASE-sources.jar!/org/springframework/data/redis/core/BoundHashOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="144" column="13" selection-start-line="144" selection-start-column="13" selection-end-line="144" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.10.RELEASE/c2ec0079b3e8cc640f4ae2647a878d5dea05f949/spring-context-5.0.10.RELEASE-sources.jar!/org/springframework/context/ApplicationListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.6.RELEASE/ba7cdc47aee11fee86f9737a18c33a1ccf64b3ac/spring-boot-autoconfigure-2.0.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/ServerProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="312" column="90" selection-start-line="312" selection-start-column="69" selection-end-line="312" selection-end-column="90" />
-          <folding>
-            <element signature="e#4648#4649#0" expanded="true" />
-            <element signature="e#4674#4675#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/global/PsWebExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/api/PsZuulTokenApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/security/rpc/PsBackendClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -3397,13 +3149,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/CompositeRouteLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
@@ -3421,37 +3166,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/feign/config/FeignMappingDefaultConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/feign/config/FeignMappingDefaultConfiguration.java" />
     <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/feign/config/PsFeignOkHttpConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/SimpleRouteLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="169" selection-start-line="169" selection-end-line="169" />
-          <folding>
-            <element signature="e#5233#5234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/web/ZuulHandlerMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
     </entry>
@@ -3473,21 +3192,195 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsRouterProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/2.0.1.RELEASE/1e764d2861814bf84825dc7f15d6cf9e6355eff2/spring-cloud-context-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/context/named/NamedContextFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="561">
           <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/mapper/PsZuulMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/process/common/domain/PsZuulRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.10.RELEASE/c2ec0079b3e8cc640f4ae2647a878d5dea05f949/spring-context-5.0.10.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
+        <state relative-caret-position="4675">
           <caret line="374" column="17" selection-start-line="374" selection-start-column="17" selection-end-line="374" selection-end-column="17" />
           <folding>
             <element signature="e#13482#13483#0" expanded="true" />
             <element signature="e#13514#13515#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/process/common/util/WebUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="97" column="41" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+          <folding>
+            <element signature="e#3508#3509#0" expanded="true" />
+            <element signature="e#3550#3551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsDbRouterProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/RouteLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/core/database/config/PsDatabaseConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/service/PsZuulService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.10.RELEASE/e7ad464a2a010d810d69e37660bb2bc3e218490f/spring-webmvc-5.0.10.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractHandlerMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="350" selection-start-line="350" selection-end-line="350" />
+          <folding>
+            <element signature="e#8262#8263#0" expanded="true" />
+            <element signature="e#8287#8288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/web/ZuulHandlerMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.10.RELEASE/e7ad464a2a010d810d69e37660bb2bc3e218490f/spring-webmvc-5.0.10.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractUrlHandlerMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.archaius/archaius-core/0.7.6/102bba6e52ad9ae0512e8bda08b426d551455294/archaius-core-0.7.6-sources.jar!/com/netflix/config/ChainedDynamicProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.2.5/ea8c4cc1423178e368d412ea9233caebca13635c/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="289" column="37" selection-start-line="289" selection-start-column="37" selection-end-line="289" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-ribbon/2.0.1.RELEASE/3e4e802e091754048bb0e5ab9adc09a1ece8f0b/spring-cloud-netflix-ribbon-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/SpringClientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="111" column="31" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/service/PsZuulServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/feign/domain/PsFeignOkHttpProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/80668296eac08bc69139f12b9709c7c0b7d61684/spring-cloud-netflix-zuul-2.0.1.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3217">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#24358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.10.RELEASE/c2ec0079b3e8cc640f4ae2647a878d5dea05f949/spring-context-5.0.10.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/global/PsApRefreshConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -3501,85 +3394,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/core/database/config/PsDatabaseConfig.java">
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/global/PsWebExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/config/PsZuulConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/service/PsZuulServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
-          <folding>
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/mapper/PsZuulMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/process/common/domain/PsZuulRouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="473">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsRouterLocator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2403#2404#0" expanded="true" />
-            <element signature="e#2436#2437#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsDbRouterProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="111">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/domain/PsRouterProvider.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.zuul/zuul-core/1.3.1/87ccf7a5d7a2c2884732347efb5b4ba91547b76d/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/FilterProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="296">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.zuul/zuul-core/1.3.1/87ccf7a5d7a2c2884732347efb5b4ba91547b76d/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/ZuulRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.zuul/zuul-core/1.3.1/87ccf7a5d7a2c2884732347efb5b4ba91547b76d/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/http/ZuulServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.10.RELEASE/e7ad464a2a010d810d69e37660bb2bc3e218490f/spring-webmvc-5.0.10.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/ServletWrappingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/web/ZuulController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.10.RELEASE/e7ad464a2a010d810d69e37660bb2bc3e218490f/spring-webmvc-5.0.10.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/SimpleControllerHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.10.RELEASE/e7ad464a2a010d810d69e37660bb2bc3e218490f/spring-webmvc-5.0.10.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="934" selection-start-line="934" selection-end-line="934" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.10.RELEASE/e7ad464a2a010d810d69e37660bb2bc3e218490f/spring-webmvc-5.0.10.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="1004" selection-start-line="1004" selection-end-line="1004" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/CompositeRouteLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/pre/PreDecorationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="190" selection-start-line="190" selection-end-line="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.zuul/zuul-core/1.3.1/87ccf7a5d7a2c2884732347efb5b4ba91547b76d/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/ZuulFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/logback-dev.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/a161f85d5cb368d472e7603562f5656b4d2aeeda/spring-cloud-netflix-zuul-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/SimpleRouteLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="e#5195#5196#0" expanded="true" />
+            <element signature="e#5233#5234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-center/src/main/java/com/process/auth/app/sys/api/PsAppUserApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-server/src/main/java/com/process/backend/app/api/PsZuulApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/core/config/zuul/config/PsZuulConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1873#1874#0" expanded="true" />
+            <element signature="e#1933#1934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/process/zuul/ZuulServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>

@@ -16,4 +16,9 @@ public interface PsZuulService {
      * @return
      */
     List<PsZuulRouter> routes();
+
+    /**
+     * 刷新路由
+     */
+    void refresh();
 }

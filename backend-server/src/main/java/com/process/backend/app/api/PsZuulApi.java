@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.val;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -28,5 +29,14 @@ public class PsZuulApi {
         val routes = zuulService.routes();
         return WebUtil.ok(routes);
     }
-    
+    @GetMapping("/test")
+    public ResponseEntity<String> test() {
+        return WebUtil.ok("HHHHHDDDDDD");
+    }
+
+    @PatchMapping("/routes/refresh")
+    public ResponseEntity refresh() {
+        zuulService.refresh();
+        return WebUtil.toResponseEntity();
+    }
 }

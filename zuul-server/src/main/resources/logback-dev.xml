@@ -10,7 +10,7 @@
     <append>true</append>
   </appender>
 
-  <logger name="com.process.zuul" level="debug"/>
+  <logger name="com.process.zuul" level="INFO"/>
 
   <root level="INFO">
     <appender-ref ref="LOG_FILE" />
