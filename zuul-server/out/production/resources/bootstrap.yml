@@ -27,4 +27,6 @@ management:
     health:
       show-details: always
 
-
+ribbon:
+  eureka:
+    enabled: true

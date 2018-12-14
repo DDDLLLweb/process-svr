@@ -75,7 +75,7 @@ public class PsRedisClientDetailsService extends JdbcClientDetailsService {
     }
 
     public void loadAllClientToCache() {
-        if (stringRedisTemplate.hasKey(CACHE_CLIENT_KEY).equals(Boolean.TRUE)) {
+        if (Boolean.TRUE.equals(stringRedisTemplate.hasKey(CACHE_CLIENT_KEY))) {
             return;
         }
         log.info("将oauth_client_details全表刷入redis");

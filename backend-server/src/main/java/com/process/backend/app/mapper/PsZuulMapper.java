@@ -16,11 +16,17 @@ public interface PsZuulMapper {
 
     }
 
+    /**
+     * 查询
+     *
+     * @return
+     */
     @Select({
-            "SELECT ID id, PREFIX prefix, ",
-            "PATH path, FULLPATH fullPath, ",
-            "LOCATION location, RETRYABLE retryable, ",
-            "SENSITIVEHEADERS sensitiveheaders",
+            "SELECT ID id, strip_prefix stripPrefix, ",
+            "PATH path, URL url, ",
+            "SERVICE_ID serviceId, RETRYABLE retryable, ",
+            "SENSITIVE_HEADERS sensitiveHeaders,",
+            "CUSTOM_SENSITIVE_HEADERS customSensitiveHeaders",
             "FROM PS_ZUUL_ROUTE"
     })
     List<PsZuulRouter> routes();

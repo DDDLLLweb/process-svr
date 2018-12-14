@@ -2,29 +2,29 @@ package com.process.common.domain;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @author Danfeng
  * @since 2018/12/12
  */
 @Data
-public class PsZuulRouter {
+public class PsZuulRouter implements Serializable {
 
     private String id;
 
-    private String fullPath;
-
     private String path;
 
-    private String location;
+    private String serviceId;
 
-    private String prefix;
+    private String url;
+
+    private boolean stripPrefix = true;
 
     private Boolean retryable;
 
     private String sensitiveHeaders;
 
-    private boolean customSensitiveHeaders;
-
-    private boolean prefixStripped = true;
+    private boolean customSensitiveHeaders = false;
 
 }

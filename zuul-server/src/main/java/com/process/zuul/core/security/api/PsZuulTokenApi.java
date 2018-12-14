@@ -3,6 +3,7 @@ package com.process.zuul.core.security.api;
 import com.process.common.util.SecurityUtil;
 import com.process.zuul.core.security.entity.PsClientCredentials;
 import com.process.zuul.core.security.properties.PsZuulOauthProperties;
+import com.process.zuul.core.security.rpc.PsBackendClient;
 import com.process.zuul.core.security.rpc.PsOAuthClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -23,6 +24,13 @@ public class PsZuulTokenApi {
 
     private final PsOAuthClient psOAuthClient;
     private final PsZuulOauthProperties zuulOauthProperties;
+    private final PsBackendClient backendClient;
+
+
+    @GetMapping("/test")
+    public ResponseEntity test() {
+        return ResponseEntity.ok(backendClient.getAllRoutes());
+    }
 
     /**
      * csrf

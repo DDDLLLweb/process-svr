@@ -1,7 +1,8 @@
 package com.process.zuul.core.config.zuul.domain;
 
-import org.springframework.cloud.netflix.zuul.filters.Route;
+import org.springframework.cloud.netflix.zuul.filters.ZuulProperties;
 
+import java.util.LinkedHashMap;
 import java.util.List;
 
 /**
@@ -22,6 +23,6 @@ public interface PsRouterProvider {
      *
      * @return
      */
-    List<Route> getRoutes();
+    LinkedHashMap<String, ZuulProperties.ZuulRoute> getRoutes();
 
 }

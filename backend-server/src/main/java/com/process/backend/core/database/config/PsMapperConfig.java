@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Configuration;
  * @since 2018/12/9
  */
 @MapperScan({
+        "com.process.backend.*.mapper",
         "com.process.backend.*.*.mapper",
-        "com.process.backend.*.*.*.mapper",
 })
 @Configuration
 public class PsMapperConfig {
