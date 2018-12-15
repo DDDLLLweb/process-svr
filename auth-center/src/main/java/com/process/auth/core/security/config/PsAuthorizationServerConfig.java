@@ -45,7 +45,6 @@ public class PsAuthorizationServerConfig extends AuthorizationServerConfigurerAd
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
         endpoints.authenticationManager(this.authenticationManager).userDetailsService(userDetailsService);
 //        endpoints.tokenStore(tokenStore());
-        // 授权码模式下，code存储
         endpoints.authorizationCodeServices(redisAuthorizationCodeServices);
     }
 

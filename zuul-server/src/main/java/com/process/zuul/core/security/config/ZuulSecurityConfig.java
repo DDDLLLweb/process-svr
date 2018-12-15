@@ -24,7 +24,7 @@ import org.springframework.web.filter.CorsFilter;
  */
 @EnableOAuth2Sso
 @EnableWebSecurity
-@EnableConfigurationProperties({PsZuulCorsProperties.class, PsZuulCsrfProperties.class,PsZuulOauthProperties.class})
+@EnableConfigurationProperties({PsZuulCorsProperties.class, PsZuulCsrfProperties.class, PsZuulOauthProperties.class})
 @RequiredArgsConstructor
 public class ZuulSecurityConfig extends WebSecurityConfigurerAdapter {
 
@@ -34,12 +34,11 @@ public class ZuulSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         // CSRF FILTER
-        http.addFilterBefore(new PsCsrfFilter(SecurityUtil::checkXsrfToken,psZuulCsrfProperties.isEnable()), CsrfFilter.class).csrf().disable();
+        http.addFilterBefore(new PsCsrfFilter(SecurityUtil::checkXsrfToken, psZuulCsrfProperties.isEnable()), CsrfFilter.class).csrf().disable();
         http.headers().frameOptions().sameOrigin();
-        http.cors();
+        http.cors().disable();
     }
 
-    @ConditionalOnProperty("ps.security.cors")
     @Bean
     public CorsFilter corsFilter() {
         final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
