@@ -76,7 +76,7 @@ public interface PsAppUserMapper {
      * @return
      */
     @Select({
-            "SELECT T.USERNAME username,",
+            "SELECT T.ID id,T.USERNAME username,",
             "T.PASSWORD password,T.NICKNAME nickname,",
             "T.SEX sex,T.AGE age,",
             "T.PHONE phone,T.EMAIL email,",

@@ -1,5 +1,7 @@
 package com.process.auth;
 
+import com.process.common.database.dialect.SqlDialectMySQL;
+import com.process.common.util.SqlUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,6 +19,11 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableDiscoveryClient
 @EnableFeignClients
 public class AuthCenterApplication {
+
+    static {
+        SqlUtil.SQL_DIALECT = new SqlDialectMySQL();
+    }
+
     public static void main(String[] args) {
         log.info("AUTH-CENTER starting");
         SpringApplication.run(AuthCenterApplication.class, args);

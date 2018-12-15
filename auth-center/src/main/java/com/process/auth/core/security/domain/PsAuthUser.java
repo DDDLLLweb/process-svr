@@ -1,6 +1,7 @@
 package com.process.auth.core.security.domain;
 
 import lombok.Data;
+import org.codehaus.jackson.annotate.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -14,6 +15,7 @@ import java.util.Collections;
 @Data
 public abstract class PsAuthUser implements UserDetails {
     private Long id;
+    @JsonIgnore
     private String username;
     private String password;
 
@@ -22,21 +24,25 @@ public abstract class PsAuthUser implements UserDetails {
         return Collections.emptyList();
     }
 
+    @JsonIgnore
     @Override
     public boolean isAccountNonExpired() {
         return true;
     }
 
+    @JsonIgnore
     @Override
     public boolean isAccountNonLocked() {
         return true;
     }
 
+    @JsonIgnore
     @Override
     public boolean isCredentialsNonExpired() {
         return true;
     }
 
+    @JsonIgnore
     @Override
     public boolean isEnabled() {
         return true;
