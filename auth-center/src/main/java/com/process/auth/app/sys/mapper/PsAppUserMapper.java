@@ -1,10 +1,10 @@
 package com.process.auth.app.sys.mapper;
 
 import com.process.auth.app.sys.api.PsAppUserQuery;
-import com.process.common.database.domain.PsSql;
 import com.process.auth.core.security.domain.PsAppUser;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.SelectProvider;
+import com.process.common.database.domain.PsSql;
+import com.process.common.util.SqlUtil;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
@@ -54,6 +54,14 @@ public interface PsAppUserMapper {
             return toCountSql();
         }
 
+        static final String BATCH_DELETE_SQL = "batchDelete";
+
+        public String batchDelete(@Param("ids") List<Long> ids) {
+            DELETE_FROM("PS_AUTH_USER");
+            WHERE("ID IN " + SqlUtil.toSqlNumberSet(ids));
+            return toString();
+        }
+
     }
 
     @SelectProvider(method = PsAppUserSqlBuilder.PAGE_SQL, type = PsAppUserSqlBuilder.class)
@@ -85,4 +93,50 @@ public interface PsAppUserMapper {
             "WHERE T.USERNAME = #{username}"
     })
     PsAppUser getEntityByName(String username);
+
+    /**
+     * 新增
+     *
+     * @param appUser
+     * @return
+     */
+    @Insert({
+            "INSERT INTO PS_AUTH_USER (",
+            "USERNAME,PASSWORD,NICKNAME,",
+            "SEX,AGE,PHONE,EMAIL,HEAD_IMG_URL,",
+            "ENABLE",
+            ") VALUE (",
+            "#{username},#{password},#{nickname},",
+            "#{sex},#{age},#{phone},#{email},",
+            "#{headImgUrl},#{enabled}",
+            ")",
+    })
+    @SelectKey(statement = "SELECT LAST_INSERT_ID()", keyProperty = "id", before = false, resultType = Long.class)
+    int insertEntity(PsAppUser appUser);
+
+    /**
+     * 修改
+     *
+     * @param appUser
+     * @return
+     */
+    @Update({
+            "UPDATE PS_AUTH_USER SET",
+            "USERNAME=#{username},NICKNAME=#{nickname},",
+            "SEX=#{sex},AGE=#{age},PHONE=#{phone},",
+            "EMAIL=#{email},HEAD_IMG_URL=#{headImgUrl},",
+            "ENABLE=#{enabled}",
+            "WHERE ID = #{id}"
+    })
+    int updateEntity(PsAppUser appUser);
+
+    /**
+     * 批量删除
+     *
+     * @param ids
+     * @return
+     */
+    @DeleteProvider(type = PsAppUserSqlBuilder.class, method = PsAppUserSqlBuilder.BATCH_DELETE_SQL)
+    int batchDelete(@Param("ids") List<Long> ids);
+
 }

@@ -1,6 +1,8 @@
 package com.process.auth.app.sys.entity;
 
+import com.process.common.domain.PsEntity;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.ToString;
 
 import java.util.List;
@@ -10,8 +12,9 @@ import java.util.stream.Collectors;
 import static java.util.function.Function.identity;
 
 @Data
-@ToString
-public class PsAppMenuEntity {
+@EqualsAndHashCode(callSuper = true)
+public class PsAppMenuEntity extends PsEntity {
+
     /**
      * 菜单ID - S_MENUS.MENU_ID
      */

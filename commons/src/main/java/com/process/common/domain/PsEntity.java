@@ -1,4 +1,4 @@
-package com.process.auth.app.sys.entity;
+package com.process.common.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;

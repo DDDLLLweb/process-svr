@@ -1,6 +1,8 @@
 package com.process.auth.core.security.domain;
 
+import com.process.common.domain.PsEntity;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.codehaus.jackson.annotate.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -13,8 +15,9 @@ import java.util.Collections;
  * @since 2018/12/09
  */
 @Data
-public abstract class PsAuthUser implements UserDetails {
-    private Long id;
+@EqualsAndHashCode(callSuper = true)
+public abstract class PsAuthUser extends PsEntity implements UserDetails {
+
     @JsonIgnore
     private String username;
     private String password;

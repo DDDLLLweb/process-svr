@@ -1,9 +1,13 @@
 package com.process.auth.app.sys.service;
 
 import com.process.auth.app.sys.mapper.PsAppUserMapper;
+import com.process.auth.core.security.domain.PsAppUser;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
 
 /**
  * @author Danfeng
@@ -15,4 +19,18 @@ import org.springframework.stereotype.Service;
 public class PsAppUserServiceImpl implements PsAppUserService {
     private final PsAppUserMapper appUserMapper;
 
+    @Transactional
+    @Override
+    public int optEntity(PsAppUser appUser) {
+        if(appUser.isNew()) {
+            return appUserMapper.insertEntity(appUser);
+        }
+        return appUserMapper.updateEntity(appUser);
+    }
+
+    @Transactional
+    @Override
+    public int batchDelete(List<Long> ids) {
+        return appUserMapper.batchDelete(ids);
+    }
 }
