@@ -33,17 +33,17 @@ public class PsAppRoleApi {
     }
 
     @PutMapping("/role")
-    public ResponseEntity user(@RequestBody PsAppRoleEntity appRoleEntity) {
+    public ResponseEntity role(@RequestBody PsAppRoleEntity appRoleEntity) {
         return WebUtil.ok(appRoleService.optEntity(appRoleEntity));
     }
 
     @GetMapping("/roles/{id}")
-    public ResponseEntity user(@PathVariable("id") long id) {
+    public ResponseEntity role(@PathVariable("id") long id) {
         return WebUtil.ok(appRoleMapper.getEntity(id));
     }
 
     @DeleteMapping("/roles")
-    public ResponseEntity users(@RequestBody Long[] ids) {
+    public ResponseEntity roles(@RequestBody Long[] ids) {
         return WebUtil.ok(appRoleService.batchDelete(Arrays.asList(ids)));
     }
 }
