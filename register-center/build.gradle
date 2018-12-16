@@ -1,7 +1,7 @@
 
 jar {
     baseName = 'register-center'
-    version =  '1.0.0'
+    version =  'latest'
 }
 
 task buildDocker(type: Docker, dependsOn: build) {

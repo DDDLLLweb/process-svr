@@ -12,4 +12,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class PsAppUserQuery extends PagingQuery {
 
+    private String username;
+
 }

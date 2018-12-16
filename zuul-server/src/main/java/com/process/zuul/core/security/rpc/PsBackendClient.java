@@ -15,7 +15,6 @@ import java.util.List;
 @FeignClient("backend-server")
 public interface PsBackendClient {
 
-
     /**
      * 获取路由
      *

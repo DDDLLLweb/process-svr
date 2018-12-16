@@ -1,3 +1,24 @@
+
+jar {
+    baseName = 'zuul-server'
+    version =  'latest'
+}
+
+task buildDocker(type: Docker, dependsOn: build) {
+    applicationName = jar.baseName
+    version = jar.version
+    tagVersion = jar.version
+    push = true
+    dockerfile = file('./Dockerfile')
+    registry = 'docker.io/df2docker'
+    doFirst {
+        copy {
+            from jar
+            into stageDir
+        }
+    }
+}
+
 dependencies {
     compile('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
     compile('org.springframework.cloud:spring-cloud-starter-netflix-zuul')

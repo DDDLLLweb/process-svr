@@ -5,6 +5,7 @@ import com.process.auth.core.security.domain.PsAppUser;
 import com.process.common.database.domain.PsSql;
 import com.process.common.util.SqlUtil;
 import org.apache.ibatis.annotations.*;
+import org.springframework.util.StringUtils;
 
 import java.util.List;
 
@@ -34,6 +35,9 @@ public interface PsAppUserMapper {
         }
 
         private void buildFilterSql(PsAppUserQuery query) {
+            if (StringUtils.hasText(query.getUsername())) {
+                WHERE("T.USERNAME LIKE " + SqlUtil.toSqlLikeString(query.getUsername()));
+            }
             ORDER_BY(query);
         }
 
