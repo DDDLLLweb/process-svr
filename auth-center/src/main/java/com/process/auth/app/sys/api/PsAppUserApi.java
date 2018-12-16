@@ -38,6 +38,16 @@ public class PsAppUserApi {
         return WebUtil.ok(appUserService.optEntity(appUser));
     }
 
+    @GetMapping("/users/{id}")
+    public ResponseEntity user(@PathVariable("id") long id) {
+        return WebUtil.ok(appUserMapper.getEntity(id));
+    }
+
+    @PatchMapping("/user/{id}")
+    public ResponseEntity resetPwd(@PathVariable("id") long id) {
+        return WebUtil.ok(appUserService.resetPwd(id));
+    }
+
     @DeleteMapping("/users")
     public ResponseEntity users(@RequestBody Long[] ids) {
         return WebUtil.ok(appUserService.batchDelete(Arrays.asList(ids)));

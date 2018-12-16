@@ -24,4 +24,11 @@ public interface PsAppUserService {
      * @return
      */
     int batchDelete(List<Long> ids);
+
+    /**
+     * 重置密码
+     * @param id
+     * @return
+     */
+    int resetPwd(long id);
 }

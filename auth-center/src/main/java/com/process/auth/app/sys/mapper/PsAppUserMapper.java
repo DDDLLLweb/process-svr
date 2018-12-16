@@ -95,6 +95,23 @@ public interface PsAppUserMapper {
     PsAppUser getEntityByName(String username);
 
     /**
+     * 根据ID查询
+     *
+     * @param id
+     * @return
+     */
+    @Select({
+            "SELECT T.ID id,T.USERNAME username,",
+            "T.PASSWORD password,T.NICKNAME nickname,",
+            "T.SEX sex,T.AGE age,",
+            "T.PHONE phone,T.EMAIL email,",
+            "T.HEAD_IMG_URL headImgUrl,T.ENABLE enabled",
+            "FROM PS_AUTH_USER T",
+            "WHERE T.ID = #{id}"
+    })
+    PsAppUser getEntity(long id);
+
+    /**
      * 新增
      *
      * @param appUser
@@ -138,5 +155,19 @@ public interface PsAppUserMapper {
      */
     @DeleteProvider(type = PsAppUserSqlBuilder.class, method = PsAppUserSqlBuilder.BATCH_DELETE_SQL)
     int batchDelete(@Param("ids") List<Long> ids);
+
+    /**
+     * 重置密码
+     *
+     * @param id
+     * @param pwd
+     * @return
+     */
+    @Update({
+            "UPDATE PS_AUTH_USER SET",
+            "PASSWORD=#{pwd}",
+            "WHERE ID = #{id}"
+    })
+    int resetPwd(@Param("id") long id, @Param("pwd") String pwd);
 
 }

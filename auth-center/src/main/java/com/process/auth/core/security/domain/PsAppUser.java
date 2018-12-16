@@ -14,7 +14,9 @@ public class PsAppUser extends PsAuthUser {
     private String nickname;
     private String headImgUrl;
     private String phone;
+    private String email;
     private Integer sex;
+    private Integer age;
     private transient boolean enabled;
     private String type;
 }
