@@ -3,6 +3,7 @@ package com.process.register;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
@@ -10,7 +11,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * @since 2018/11/12
  */
 @Slf4j
-@SpringBootApplication
+@SpringBootApplication(
+        exclude = {DataSourceAutoConfiguration.class}
+)
 @EnableEurekaServer
 public class RegisterCenterApplication {
 

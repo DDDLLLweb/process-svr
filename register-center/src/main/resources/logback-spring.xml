@@ -2,7 +2,7 @@
 <configuration>
 
   <!-- 开发环境 -->
-  <springProfile name="dev,demo">
+  <springProfile name="dev">
     <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
     <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
     <include resource="./logback-dev.xml"/>

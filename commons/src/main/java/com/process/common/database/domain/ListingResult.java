@@ -15,10 +15,12 @@ public class ListingResult<TRow> {
         this.rows = rows;
     }
 
+    @SuppressWarnings("unchecked")
     public static <TRow> ListingResult<TRow> of(Collection<TRow> rows) {
         return new ListingResult(rows);
     }
 
+    @SuppressWarnings("unchecked")
     public static <TRow> ListingResult<TRow> empty() {
         return EMPTY;
     }

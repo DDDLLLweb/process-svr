@@ -1,3 +1,4 @@
+rootProject.name = 'process-svr'
 include 'register-center'
 include 'config-server'
 include 'auth-center'

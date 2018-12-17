@@ -21,6 +21,7 @@ public class PagingResult<TRow> extends ListingResult<TRow> {
         return new PagingResult(rows, total);
     }
 
+    @SuppressWarnings("unchecked")
     public static <TRow> PagingResult<TRow> empty() {
         return EMPTY;
     }

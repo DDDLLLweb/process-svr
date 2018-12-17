@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8:slim
-VOLUME /tmp
-ADD register-center-1.0.0.jar app.jar
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+FROM openjdk:8-jre-alpine
+ADD register-center-latest.jar app.jar
+ADD /resources/main/logback-spring.xml /logback-spring.xml
+CMD ["java","-jar","-Dspring.profiles.active=dev","-Dlogging.config=/logback-spring.xml","/app.jar"]

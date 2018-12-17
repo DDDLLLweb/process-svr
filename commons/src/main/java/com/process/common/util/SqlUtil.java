@@ -37,7 +37,7 @@ public abstract class SqlUtil {
         if (options.length == 0) {
             throw DevError.unexpected("Parameter(options) is empty");
         } else {
-            return (String) Stream.of(options).map(SortOption::toSqlSort).collect(Collectors.joining(","));
+            return Stream.of(options).map(SortOption::toSqlSort).collect(Collectors.joining(","));
         }
     }
 
@@ -77,7 +77,7 @@ public abstract class SqlUtil {
 
         for (int n = input.length(); i < n; ++i) {
             char ch = input.charAt(i);
-            String escaped = (String) escapeTable.get(ch);
+            String escaped = escapeTable.get(ch);
             sb = escaped != null ? sb.append(escaped) : sb.append(ch);
         }
 
@@ -91,17 +91,17 @@ public abstract class SqlUtil {
     }
 
     public static String toSqlStringSet(Collection<? extends CharSequence> vals) {
-        List<? extends CharSequence> nonNullVals = (List) vals.stream().filter(Objects::nonNull).collect(Collectors.toList());
-        return nonNullVals.isEmpty() ? "(NULL)" : (String) nonNullVals.stream().map(SqlUtil::toSqlString).collect(Collectors.joining(",", "(", ")"));
+        List<? extends CharSequence> nonNullVals = vals.stream().filter(Objects::nonNull).collect(Collectors.toList());
+        return nonNullVals.isEmpty() ? "(NULL)" : nonNullVals.stream().map(SqlUtil::toSqlString).collect(Collectors.joining(",", "(", ")"));
     }
 
     public static String toSqlNumberSet(Collection<? extends Number> vals) {
-        List<? extends Number> nonNullVals = (List) vals.stream().filter(Objects::nonNull).collect(Collectors.toList());
-        return nonNullVals.isEmpty() ? "(NULL)" : (String) nonNullVals.stream().map(String::valueOf).collect(Collectors.joining(",", "(", ")"));
+        List<? extends Number> nonNullVals = vals.stream().filter(Objects::nonNull).collect(Collectors.toList());
+        return nonNullVals.isEmpty() ? "(NULL)" : nonNullVals.stream().map(String::valueOf).collect(Collectors.joining(",", "(", ")"));
     }
 
     public static String unionAll(SQL... sqls) {
-        return (String) Stream.of(sqls).map(AbstractSQL::toString).collect(Collectors.joining(" UNION ALL "));
+        return Stream.of(sqls).map(AbstractSQL::toString).collect(Collectors.joining(" UNION ALL "));
     }
 
     public static String toSqlWord(String input) {
@@ -112,12 +112,12 @@ public abstract class SqlUtil {
         }
     }
 
-    public static enum SqlLikeOption {
+    public enum SqlLikeOption {
+        /**
+         * SQL LIKE
+         */
         BOTH_SIDES,
         LEFT_SIDE,
-        RIGHT_SIDE;
-
-        private SqlLikeOption() {
-        }
+        RIGHT_SIDE
     }
 }

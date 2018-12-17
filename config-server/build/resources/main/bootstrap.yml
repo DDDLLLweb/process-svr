@@ -20,7 +20,6 @@ spring:
     username: df
     password: df
 
-
 server:
   port: 9090
 

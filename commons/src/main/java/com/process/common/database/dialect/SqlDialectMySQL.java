@@ -11,7 +11,7 @@ import java.util.Map;
  * @since 2018/12/9
  */
 public class SqlDialectMySQL implements SqlDialect {
-    private static final Map<Character, String> SQL_ESC = new HashMap();
+    private static final Map<Character, String> SQL_ESC = new HashMap<>();
 
     @Override
     public Map<Character, String> escapeTable() {

@@ -20,7 +20,6 @@ allprojects {
 
     apply plugin: 'idea'
     apply plugin: 'java'
-    apply plugin: 'findbugs'
     apply plugin: 'org.springframework.boot'
     apply plugin: 'io.spring.dependency-management'
     apply plugin: 'docker'
@@ -68,12 +67,6 @@ allprojects {
 }
 
 project(":auth-center") {
-    dependencies {
-        compile project(":commons")
-    }
-}
-6
-project(":zuul-server") {
     dependencies {
         compile project(":commons")
     }
