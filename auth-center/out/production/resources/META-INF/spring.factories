@@ -1,2 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.process.auth.core.config.global.PsApRefreshConfiguration
