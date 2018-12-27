@@ -17,13 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/test")
 public class AuthProTestApi {
 
-    private final AuthCenterProperties authCenterProperties;
-
-    @GetMapping("/properties")
-    public String getPro() {
-        return authCenterProperties.getSec();
-    }
-
     public static void main(String[] args) {
         BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
         System.out.println(bCryptPasswordEncoder.encode("password"));

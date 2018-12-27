@@ -1,4 +1,4 @@
-package com.process.auth.core.security.spi;
+package com.process.auth.core.security.api;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.Authentication;

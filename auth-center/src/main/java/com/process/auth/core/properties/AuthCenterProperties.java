@@ -13,7 +13,9 @@ import org.springframework.stereotype.Component;
 @Data
 @RefreshScope
 @Component
-@ConfigurationProperties(prefix = "auth")
+@ConfigurationProperties(prefix = "ps.security")
 public class AuthCenterProperties {
-    private String sec;
+    private String tokenStoreType;
+
+    private String signKey;
 }

@@ -6,7 +6,7 @@
     <encoder>
       <pattern>${FILE_LOG_PATTERN}</pattern>
     </encoder>
-    <file>./logs/dev/attack-dev.log</file>
+    <file>./logs/dev/register-dev.log</file>
     <append>true</append>
   </appender>
 
