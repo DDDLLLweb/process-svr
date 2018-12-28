@@ -3,6 +3,10 @@ spring:
     name: backend-server
   profiles:
     active: dev
+  output:
+    ansi:
+      enabled: detect #多彩输出日志
+
   cloud:
     config:
       label: master

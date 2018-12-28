@@ -3,6 +3,9 @@ spring:
     name: config-server
   profiles:
     include: dev
+  output:
+    ansi:
+      enabled: detect #多彩输出日志
   cloud:
     config:
       server:

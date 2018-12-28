@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <included>
-    <property name="LOG_FILE" value="${CATALINA_HOME}/logs/prod/attack-prod"/>
+    <property name="LOG_FILE" value="./logs/prod/attack-prod"/>
 
     <appender name="LOG_FILE"
               class="ch.qos.logback.core.rolling.RollingFileAppender">

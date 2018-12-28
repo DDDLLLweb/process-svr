@@ -3,8 +3,13 @@ spring:
     name: register-center
   profiles:
     include: dev
+  output:
+    ansi:
+      enabled: detect #多彩输出日志
+
 server:
   port: 8761
+
 eureka:
   instance:
     prefer-ip-address: true

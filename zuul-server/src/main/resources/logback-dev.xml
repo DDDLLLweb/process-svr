@@ -6,13 +6,13 @@
     <encoder>
       <pattern>${FILE_LOG_PATTERN}</pattern>
     </encoder>
-    <file>./logs/dev/attack-dev.log</file>
+    <file>./logs/dev/register-dev.log</file>
     <append>true</append>
   </appender>
 
-  <logger name="com.process.zuul" level="INFO"/>
+  <logger name="com.process.zuul" level="debug"/>
 
-  <root level="INFO">
+  <root level="DEBUG">
     <appender-ref ref="LOG_FILE" />
     <appender-ref ref="CONSOLE"/>
   </root>

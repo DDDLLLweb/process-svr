@@ -3,6 +3,10 @@ spring:
     name: zuul-server
   profiles:
     include: dev
+  output:
+    ansi:
+      enabled: detect #多彩输出日志
+
   cloud:
     config:
       label: master

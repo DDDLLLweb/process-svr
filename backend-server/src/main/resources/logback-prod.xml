@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <included>
-    <property name="LOG_FILE" value="./logs/prod/zuul-prod"/>
+    <property name="LOG_FILE" value="./logs/prod/backend-prod"/>
 
     <appender name="LOG_FILE"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -36,7 +36,7 @@
         </filter>
     </appender>
 
-    <logger name="com.process.register" level="INFO"/>
+    <logger name="com.process.config" level="INFO"/>
 
     <root level="INFO">
         <appender-ref ref="LOG_FILE"/>
