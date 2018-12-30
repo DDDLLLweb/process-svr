@@ -3,6 +3,8 @@ package com.process.auth.core.security.domain;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+import java.util.List;
+
 /**
  * @author Danfeng
  * @since 2018/12/9
@@ -19,4 +21,10 @@ public class PsAppUser extends PsAuthUser {
     private Integer age;
     private transient boolean enabled;
     private String type;
+
+    /**
+     * 角色ID
+     */
+    private List<Long> roleIds;
+    
 }

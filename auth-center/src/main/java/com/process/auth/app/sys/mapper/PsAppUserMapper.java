@@ -174,4 +174,44 @@ public interface PsAppUserMapper {
     })
     int resetPwd(@Param("id") long id, @Param("pwd") String pwd);
 
+    /**
+     * 绑定用户角色
+     *
+     * @param userId 用户Id
+     * @param roleId 角色ID
+     * @return
+     */
+    @Insert({
+            "INSERT INTO PS_ROLE_USER (",
+            "USER_ID,ROLE_ID",
+            ") VALUE (",
+            "#{userId},#{roleId}",
+            ")",
+    })
+    int bindUserRole(@Param("userId") Long userId, @Param("roleId") Long roleId);
+
+    /**
+     * 删除用户的角色
+     *
+     * @param userId
+     * @return
+     */
+    @Delete({
+            "DELETE FROM PS_ROLE_USER",
+            "WHERE USER_ID = #{userId}"
+    })
+    int deleteUserRole(Long userId);
+
+    /**
+     * 查询用户角色ID
+     *
+     * @param userId
+     * @return
+     */
+    @Select({
+            "SELECT ROLE_ID FROM PS_ROLE_USER",
+            "WHERE USER_ID =#{userId}"
+    })
+    List<Long> getUserRoleIds(Long userId);
+
 }

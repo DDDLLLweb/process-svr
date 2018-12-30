@@ -8,9 +8,8 @@
         <file>./logs/dev/auth-center-dev.log</file>
         <append>true</append>
     </appender>
-    <logger name="com.process.auth" level="debug"/>
-    <logger name="org.springframework.boot.autoconfigure.security" level="info"/>
-    <root level="INFO">
+    <logger name="com.process.auth" additivity="false" level="debug"/>
+    <root level="INFO" additivity="false">
         <appender-ref ref="LOG_FILE"/>
         <appender-ref ref="CONSOLE"/>
     </root>

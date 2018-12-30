@@ -6,7 +6,6 @@ spring:
   output:
     ansi:
       enabled: detect #多彩输出日志
-
   cloud:
     config:
       label: master

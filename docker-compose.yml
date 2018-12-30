@@ -1,0 +1,26 @@
+version: '1.1'
+services:
+  register-center:
+    image: df2docker/register-center
+    restart: always
+    container_name: register-center
+    hostname: register-center
+    ports:
+      - "8761:8761"
+  config-server:
+    image: df2docker/config-server
+    restart: always
+    container_name: config-server
+    hostname: config-server
+    ports:
+      - "9090:9090"
+    depends_on:
+      - register-center
+  auth-center:
+    image: df2docker/auth-center
+    restart: always
+    container_name: auth-center
+    hostname: auth-center
+    depends_on:
+      - register-center
+      - config-server

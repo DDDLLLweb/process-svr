@@ -1,5 +1,7 @@
 package com.process.backend.core.database.config;
 
+import com.process.common.database.utils.PsBatchService;
+import com.process.common.database.utils.PsBatchServiceImpl;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.plugin.Interceptor;
@@ -8,6 +10,7 @@ import org.apache.ibatis.type.TypeHandler;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -68,15 +71,21 @@ public class PsDatabaseConfig implements TransactionManagementConfigurer {
 
     @Primary
     @Bean
-    public SqlSessionTemplate sqlSessionTemplate(SqlSessionFactory sqlSessionFactory) {
+    public SqlSessionTemplate sqlSessionTemplate(final SqlSessionFactory sqlSessionFactory) {
         return new SqlSessionTemplate(sqlSessionFactory);
     }
 
     @Bean
-    public RedisTemplate redisTemplate(RedisConnectionFactory factory) {
+    public RedisTemplate redisTemplate(final RedisConnectionFactory factory) {
         RedisTemplate redisTemplate = new RedisTemplate();
         redisTemplate.setConnectionFactory(factory);
         return redisTemplate;
+    }
+
+    @Bean
+    @ConditionalOnMissingBean(PsBatchService.class)
+    public PsBatchService psBatchService(final SqlSessionFactory sqlSessionFactory) {
+        return new PsBatchServiceImpl(sqlSessionFactory);
     }
 
 }

@@ -8,7 +8,6 @@ buildscript {
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
         classpath('se.transmode.gradle:gradle-docker:1.2')
-
     }
 
 }
@@ -31,6 +30,11 @@ allprojects {
 
     ext {
         springCloudVersion = 'Finchley.SR1'
+        appRunArgs = [
+                'APP_PROFILE_DEF': 'dev',
+//                'APP_REGISTER_URL': 'http://39.108.225.237:8761/eureka/',
+                'APP_REGISTER_URL': 'http://register-center:8761/eureka/',
+        ]
     }
 
     sourceCompatibility = 1.8
@@ -42,7 +46,9 @@ allprojects {
     }
 
     bootRun {
-        systemProperties System.properties as Map<String, ?>
+        (appRunArgs as Map<String, String>).each {
+            k, v -> systemProperty(k, v)
+        }
     }
 
     dependencies {

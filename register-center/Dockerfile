@@ -1,4 +1,9 @@
 FROM openjdk:8-jre-alpine
-COPY register-center-latest.jar app.jar
-CMD ["java","-jar","-Dspring.profiles.active=dev","/app.jar"]
+MAINTAINER Danfeng
+RUN apk update \
+      && apk upgrade \
+      && apk add --no-cache bridge-utils \
+      && rm -rf /var/cache/apk/*
 
+COPY register-center-latest.jar register-center.jar
+CMD ["java","-jar","-Dspring.profiles.active=dev","/register-center.jar"]

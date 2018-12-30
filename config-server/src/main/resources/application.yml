@@ -1,8 +1,6 @@
 spring:
   application:
     name: config-server
-  profiles:
-    include: dev
   output:
     ansi:
       enabled: detect #多彩输出日志
@@ -18,24 +16,13 @@ spring:
       trace:
         enabled: true
   rabbitmq:
-    host: dl.love.com
+    host: 39.108.225.237
     port: 5672
     username: df
     password: df
 
 server:
   port: 9090
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-    registry-fetch-interval-seconds: 5
-  instance:
-    lease-expiration-duration-in-seconds: 15
-    lease-renewal-interval-in-seconds: 5
-    prefer-ip-address: true
-    instance-id: ${spring.application.name}:${random.int}
 
 management:
   endpoints:

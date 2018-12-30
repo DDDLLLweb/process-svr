@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8:slim
-VOLUME /tmp
-ADD config-server-1.0.0.jar config-server.jar
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/config-server.jar"]
+FROM openjdk:8-jre-alpine
+MAINTAINER Danfeng
+ADD config-server-latest.jar config-server.jar
+CMD ["java","-jar","-Dspring.profiles.active=prod","/config-server.jar"]

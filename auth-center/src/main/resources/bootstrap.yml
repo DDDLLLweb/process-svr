@@ -2,25 +2,39 @@ spring:
   application:
     name: auth-center
   profiles:
-    active: dev
+    active: ${APP_PROFILE_DEF}
+    include: auth
   output:
     ansi:
       enabled: detect #多彩输出日志
   cloud:
     config:
+      discovery:
+        enabled: true
+        serviceId: config-server
       label: master
       name: auth-center
-      profile: dev
-      uri: http://localhost:9090
+      profile: ${spring.profiles.active}
       refreshInterval: 600
     bus:
       trace:
         enabled: true
   rabbitmq:
-    host: dl.love.com
+    host: 39.108.225.237
     port: 5672
     username: df
     password: df
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://register-center:8761/eureka/
+    registry-fetch-interval-seconds: 5
+  instance:
+    lease-expiration-duration-in-seconds: 15
+    lease-renewal-interval-in-seconds: 5
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${random.int}
 
 management:
   endpoints:
