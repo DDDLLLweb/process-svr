@@ -3,6 +3,8 @@ package com.process.auth.app.sys.mapper;
 import com.process.auth.app.sys.api.PsAppRoleQuery;
 import com.process.auth.app.sys.entity.PsAppRoleEntity;
 import com.process.common.database.domain.PsSql;
+import com.process.common.domain.CodeName;
+import com.process.common.domain.PsCodeName;
 import com.process.common.util.SqlUtil;
 import org.apache.ibatis.annotations.*;
 import org.springframework.util.StringUtils;
@@ -65,6 +67,18 @@ public interface PsAppRoleMapper {
             return toString();
         }
 
+        static final String SUGGEST_SQL = "suggest";
+
+        public String suggest(String key) {
+            SELECT("ID id");
+            SELECT("ID code");
+            SELECT("ROLE_NAME name");
+            FROM("PS_AUTH_ROLE");
+            if (StringUtils.hasText(key)) {
+                WHERE("ROLE_NAME LIKE " + SqlUtil.toSqlLikeString(key));
+            }
+            return toString();
+        }
     }
 
     @SelectProvider(method = PsAppRoleSqlBuilder.PAGE_SQL, type = PsAppRoleSqlBuilder.class)
@@ -136,5 +150,14 @@ public interface PsAppRoleMapper {
     @DeleteProvider(type = PsAppRoleSqlBuilder.class, method = PsAppRoleSqlBuilder.BATCH_DELETE_SQL)
     int batchDelete(@Param("ids") List<Long> ids);
 
+
+    /**
+     * 下拉选择
+     *
+     * @param key
+     * @return
+     */
+    @SelectProvider(method = PsAppRoleSqlBuilder.SUGGEST_SQL, type = PsAppRoleSqlBuilder.class)
+    List<PsCodeName> suggest(String key);
 
 }

@@ -4,6 +4,7 @@ import com.process.auth.app.sys.entity.PsAppRoleEntity;
 import com.process.auth.app.sys.mapper.PsAppRoleMapper;
 import com.process.auth.app.sys.service.PsAppRoleService;
 import com.process.common.database.domain.PagingResult;
+import com.process.common.domain.PsCodeName;
 import com.process.common.util.WebUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.val;
@@ -11,6 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author Danfeng
@@ -46,4 +48,10 @@ public class PsAppRoleApi {
     public ResponseEntity roles(@RequestBody Long[] ids) {
         return WebUtil.ok(appRoleService.batchDelete(Arrays.asList(ids)));
     }
+
+    @GetMapping("/roles/suggest")
+    public ResponseEntity<List<PsCodeName>> suggest(@RequestParam(value = "key", required = false) String key) {
+        return WebUtil.ok(appRoleMapper.suggest(key));
+    }
+
 }
