@@ -1,26 +1,39 @@
 spring:
   application:
     name: zuul-server
-  profiles:
-    include: dev
   output:
     ansi:
       enabled: detect #多彩输出日志
   cloud:
     config:
+#      discovery:
+#        enabled: true
+#        serviceId: config-server
+      uri: http://dl.love.com:9090
       label: master
       name: zuul-server
-      profile: dev
-      uri: http://localhost:9090
-      refreshInterval: 600
+      profile: ${spring.profiles.active}
     bus:
       trace:
         enabled: true
   rabbitmq:
-      host: dl.love.com
+      host: 39.108.225.237
       port: 5672
       username: df
       password: df
+
+eureka:
+  client:
+    serviceUrl:
+#      defaultZone: http://register-center:8761/eureka/
+      defaultZone: http://dl.love.com:8761/eureka/
+    registry-fetch-interval-seconds: 5
+  instance:
+    lease-expiration-duration-in-seconds: 15
+    lease-renewal-interval-in-seconds: 5
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${random.int}
+
 management:
   endpoints:
     web:
@@ -29,3 +42,4 @@ management:
   endpoint:
     health:
       show-details: always
+

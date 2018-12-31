@@ -1,7 +1,9 @@
-version: '1.1'
+version: '3'
 services:
   register-center:
     image: df2docker/register-center
+    networks:
+      - app
     restart: always
     container_name: register-center
     hostname: register-center
@@ -12,6 +14,8 @@ services:
     restart: always
     container_name: config-server
     hostname: config-server
+    networks:
+      - app
     ports:
       - "9090:9090"
     depends_on:
@@ -19,8 +23,35 @@ services:
   auth-center:
     image: df2docker/auth-center
     restart: always
+    networks:
+      - app
     container_name: auth-center
     hostname: auth-center
     depends_on:
       - register-center
       - config-server
+  backend-server:
+    image: df2docker/backend-server
+    restart: always
+    container_name: backend-server
+    hostname: backend-server
+    depends_on:
+      - register-center
+      - config-server
+    networks:
+      - app
+  zuul-server:
+    image: df2docker/zuul-server
+    restart: always
+    container_name: zuul-server
+    hostname: zuul-server
+    depends_on:
+      - register-center
+      - config-server
+    ports:
+      - "9001:9001"
+    networks:
+      - app
+networks:
+  app:
+    external: true

@@ -1,4 +1,4 @@
 FROM openjdk:8-jre-alpine
-VOLUME /tmp
+MAINTAINER Danfeng
 ADD zuul-server-latest.jar zuul-server.jar
-ENTRYPOINT ["java","-jar","/zuul-server.jar"]
+ENTRYPOINT ["java","-jar","-Dspring.profiles.active=prod","/zuul-server.jar"]

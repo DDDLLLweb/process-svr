@@ -12,7 +12,7 @@
 
   <logger name="com.process.zuul" level="debug"/>
 
-  <root level="DEBUG">
+  <root level="INFO">
     <appender-ref ref="LOG_FILE" />
     <appender-ref ref="CONSOLE"/>
   </root>

@@ -33,7 +33,7 @@ allprojects {
         appRunArgs = [
                 'APP_PROFILE_DEF': 'dev',
 //                'APP_REGISTER_URL': 'http://39.108.225.237:8761/eureka/',
-                'APP_REGISTER_URL': 'http://register-center:8761/eureka/',
+                'APP_REGISTER_URL': 'register-center',
         ]
     }
 
@@ -46,6 +46,7 @@ allprojects {
     }
 
     bootRun {
+        systemProperty "spring.profiles.active", 'dev'
         (appRunArgs as Map<String, String>).each {
             k, v -> systemProperty(k, v)
         }

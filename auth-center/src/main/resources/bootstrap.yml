@@ -9,16 +9,17 @@ spring:
       enabled: detect #多彩输出日志
   cloud:
     config:
-      discovery:
-        enabled: true
-        serviceId: config-server
+#      discovery:
+#        enabled: true
+#        serviceId: config-server
+      uri: http://dl.love.com:9090
       label: master
       name: auth-center
       profile: ${spring.profiles.active}
-      refreshInterval: 600
-    bus:
-      trace:
-        enabled: true
+#      refreshInterval: 600
+#    bus:
+#      trace:
+#        enabled: true
   rabbitmq:
     host: 39.108.225.237
     port: 5672
@@ -28,7 +29,8 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://register-center:8761/eureka/
+#      defaultZone: http://register-center:8761/eureka/
+      defaultZone: http://dl.love.com:8761/eureka/
     registry-fetch-interval-seconds: 5
   instance:
     lease-expiration-duration-in-seconds: 15
