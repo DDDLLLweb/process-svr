@@ -16,4 +16,11 @@ public interface PsAppMenuService {
      * @return 菜单集合
      */
     List<PsAppMenuEntity> menusOf(long userId);
+
+    /**
+     * 查询所有菜单
+     *
+     * @return
+     */
+    List<PsAppMenuEntity> findList();
 }

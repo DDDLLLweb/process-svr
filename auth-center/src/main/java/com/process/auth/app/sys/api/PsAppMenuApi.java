@@ -1,5 +1,6 @@
 package com.process.auth.app.sys.api;
 
+import com.process.auth.app.sys.entity.PsAppMenuEntity;
 import com.process.auth.app.sys.mapper.PsAppUserMapper;
 import com.process.auth.app.sys.service.PsAppMenuService;
 import com.process.auth.app.sys.service.PsAppUserService;
@@ -14,7 +15,10 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 /**
  * @author Danfeng
@@ -38,5 +42,12 @@ public class PsAppMenuApi {
         return WebUtil.okBuilder().body(menuService.menusOf(psAppUser.getId()));
     }
 
+    @GetMapping("/menus/all")
+    public ResponseEntity<List<PsAppMenuEntity>> findMenus(@RequestParam(value = "userId", required = false) Long userId) {
+        if (userId != null) {
+            return WebUtil.okBuilder().body(menuService.menusOf(userId));
+        }
+        return WebUtil.okBuilder().body(menuService.findList());
+    }
 }
 

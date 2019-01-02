@@ -2,6 +2,7 @@ package com.process.auth.app.sys.mapper;
 
 import com.process.auth.app.sys.entity.PsAppMenuEntity;
 import com.process.common.database.domain.PsSql;
+import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.SelectProvider;
 
 import java.util.List;
@@ -11,6 +12,7 @@ import java.util.List;
  * @since 2018/7/23
  */
 public interface PsAppMenuMapper {
+
     class SqlBuilder extends PsSql {
 
         private static final String MENUS_OF_SQL = "menusOfSql";
@@ -34,5 +36,20 @@ public interface PsAppMenuMapper {
      */
     @SelectProvider(type = SqlBuilder.class, method = SqlBuilder.MENUS_OF_SQL)
     List<PsAppMenuEntity> menusOf(long userId);
+
+    /**
+     * 查询所有菜单
+     *
+     * @return
+     */
+    @Select({
+            "SELECT distinct sm.menu_Id menuId, ",
+            "sm.upper_Id upperId, sm.menu_Uri menuUri, ",
+            "sm.menu_Ico menuIco, sm.menu_Label menuLabel,",
+            "sm.menu_Type menuType",
+            "FROM PS_MENU sm"
+    })
+    List<PsAppMenuEntity> findList();
+
 
 }
