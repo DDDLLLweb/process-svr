@@ -26,6 +26,17 @@ public interface PsAppMenuMapper {
             return toString();
         }
 
+        private static final String MENUS_OF_ROLE_SQL = "menusOfRoleSql";
+
+        public String menusOfRoleSql() {
+            SELECT("distinct sm.menu_Id menuId, sm.upper_Id upperId, sm.menu_Uri menuUri, " +
+                    "sm.menu_Ico menuIco, sm.menu_Label menuLabel, sm.menu_Type menuType");
+            FROM("PS_MENU sm");
+            INNER_JOIN("PS_ROLE_MENU rm on rm.menu_id = sm.MENU_ID and rm.role_id = #{roleId}");
+            ORDER_BY("menuId");
+            return toString();
+        }
+
     }
 
     /**
@@ -36,6 +47,15 @@ public interface PsAppMenuMapper {
      */
     @SelectProvider(type = SqlBuilder.class, method = SqlBuilder.MENUS_OF_SQL)
     List<PsAppMenuEntity> menusOf(long userId);
+
+    /**
+     * 根据角色Id查询
+     *
+     * @param roleId
+     * @return
+     */
+    @SelectProvider(type = SqlBuilder.class, method = SqlBuilder.MENUS_OF_ROLE_SQL)
+    List<PsAppMenuEntity> menusByRoleId(long roleId);
 
     /**
      * 查询所有菜单

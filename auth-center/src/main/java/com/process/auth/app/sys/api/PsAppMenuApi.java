@@ -43,9 +43,9 @@ public class PsAppMenuApi {
     }
 
     @GetMapping("/menus/all")
-    public ResponseEntity<List<PsAppMenuEntity>> findMenus(@RequestParam(value = "userId", required = false) Long userId) {
-        if (userId != null) {
-            return WebUtil.okBuilder().body(PsAppMenuEntity.toTrees(menuService.menusOf(userId)));
+    public ResponseEntity<List<PsAppMenuEntity>> findMenus(@RequestParam(value = "roleId", required = false) Long roleId) {
+        if (roleId != null) {
+            return WebUtil.okBuilder().body(PsAppMenuEntity.toTrees(menuService.menusOf(roleId)));
         }
         return WebUtil.okBuilder().body(PsAppMenuEntity.toTrees(menuService.findList()));
     }

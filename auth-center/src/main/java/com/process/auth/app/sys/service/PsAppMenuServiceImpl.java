@@ -24,6 +24,11 @@ public class PsAppMenuServiceImpl implements PsAppMenuService {
     }
 
     @Override
+    public List<PsAppMenuEntity> menusByRoleId(long roleId) {
+        return menuMapper.menusByRoleId(roleId);
+    }
+
+    @Override
     public List<PsAppMenuEntity> findList() {
         return menuMapper.findList();
     }

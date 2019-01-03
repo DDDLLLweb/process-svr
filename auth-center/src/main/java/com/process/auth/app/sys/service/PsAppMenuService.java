@@ -18,6 +18,13 @@ public interface PsAppMenuService {
     List<PsAppMenuEntity> menusOf(long userId);
 
     /**
+     *
+     * @param roleId
+     * @return
+     */
+    List<PsAppMenuEntity> menusByRoleId(long roleId);
+
+    /**
      * 查询所有菜单
      *
      * @return
