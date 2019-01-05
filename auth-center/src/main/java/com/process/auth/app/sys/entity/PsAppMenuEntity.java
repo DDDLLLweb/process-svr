@@ -3,7 +3,9 @@ package com.process.auth.app.sys.entity;
 import com.process.common.domain.PsEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import org.springframework.util.StringUtils;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -47,7 +49,7 @@ public class PsAppMenuEntity extends PsEntity {
     /**
      * 子菜单
      */
-    private List<PsAppMenuEntity> children;
+    private List<PsAppMenuEntity> children = new ArrayList<>();
 
     /**
      * 将菜单列表封装成树列表
@@ -59,7 +61,7 @@ public class PsAppMenuEntity extends PsEntity {
         final PsAppMenuEntity root = new PsAppMenuEntity();
         Map<String, PsAppMenuEntity> treeMap = items.stream()
                 .collect(Collectors.toMap(PsAppMenuEntity::getMenuId, identity()));
-        items.stream().filter(item -> item.getUpperId() != null).collect(Collectors.toList()).forEach(item -> treeMap.getOrDefault(item.getUpperId(), root).children.add(item));
+        items.stream().filter(item -> StringUtils.hasText(item.getUpperId())).collect(Collectors.toList()).forEach(item -> treeMap.getOrDefault(item.getUpperId(), root).children.add(item));
         return root.children;
     }
 }
