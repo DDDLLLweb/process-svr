@@ -7,12 +7,12 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
-@RunWith(SpringRunner.class)
-@ContextConfiguration(
-        initializers = {ConfigFileApplicationContextInitializer.class}
-)
-@Transactional
-@Rollback
+//@RunWith(SpringRunner.class)
+//@ContextConfiguration(
+//        initializers = {ConfigFileApplicationContextInitializer.class}
+//)
+//@Transactional
+//@Rollback
 public abstract class PsBaseTest {
 
 }

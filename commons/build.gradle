@@ -1,3 +1,10 @@
+
+archivesBaseName = "commons"
+
+bootJar {
+    enabled = false
+}
+
 jar {
     enabled = true
     baseName = 'commons'

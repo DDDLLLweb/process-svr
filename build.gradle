@@ -71,6 +71,36 @@ allprojects {
             mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
         }
     }
+
+    // java编译的时候缺省状态下会因为中文字符而失败
+    [compileJava,compileTestJava,javadoc]*.options*.encoding = 'UTF-8'
+
+    // 定义依赖:声明项目中需要哪些依赖
+    dependencies {
+        compile fileTree(dir: 'lib', exclude:'', include: '*.jar')
+    }
+
+    // 全局设置依赖配置
+    configurations {
+        providedRuntime
+    }
+
+}
+
+// 配置所有子模块
+subprojects {
+    //指定目录结构
+    sourceSets {
+        main {
+            java{
+                srcDir 'src/main/java'
+            }
+            resources {
+                srcDir 'src/main/java'
+                srcDir 'src/main/resources'
+            }
+        }
+    }
 }
 
 project(":auth-center") {

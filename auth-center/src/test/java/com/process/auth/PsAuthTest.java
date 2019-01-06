@@ -9,9 +9,9 @@ import org.springframework.test.context.ContextConfiguration;
  * @author Danfeng
  * @since 2019/1/5
  */
-@ContextConfiguration(classes = {
-        PsDatabaseConfig.class, PsMapperConfig.class
-})
+//@ContextConfiguration(classes = {
+//        PsDatabaseConfig.class, PsMapperConfig.class
+//})
 public class PsAuthTest extends PsBaseTest {
 
 }

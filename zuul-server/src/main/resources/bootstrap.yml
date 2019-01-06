@@ -6,10 +6,10 @@ spring:
       enabled: detect #多彩输出日志
   cloud:
     config:
-#      discovery:
-#        enabled: true
-#        serviceId: config-server
-      uri: http://dl.love.com:9090
+      discovery:
+        enabled: true
+        serviceId: config-server
+#      uri: http://dl.love.com:9090
       label: master
       name: zuul-server
       profile: ${spring.profiles.active}
@@ -25,8 +25,8 @@ spring:
 eureka:
   client:
     serviceUrl:
-#      defaultZone: http://register-center:8761/eureka/
-      defaultZone: http://dl.love.com:8761/eureka/
+      defaultZone: http://register-center:8761/eureka/
+#      defaultZone: http://dl.love.com:8761/eureka/
     registry-fetch-interval-seconds: 5
   instance:
     lease-expiration-duration-in-seconds: 15

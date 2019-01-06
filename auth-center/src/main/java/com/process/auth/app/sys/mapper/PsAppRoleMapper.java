@@ -3,7 +3,6 @@ package com.process.auth.app.sys.mapper;
 import com.process.auth.app.sys.api.PsAppRoleQuery;
 import com.process.auth.app.sys.entity.PsAppRoleEntity;
 import com.process.common.database.domain.PsSql;
-import com.process.common.domain.CodeName;
 import com.process.common.domain.PsCodeName;
 import com.process.common.util.SqlUtil;
 import org.apache.ibatis.annotations.*;

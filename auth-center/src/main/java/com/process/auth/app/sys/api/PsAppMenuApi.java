@@ -3,7 +3,6 @@ package com.process.auth.app.sys.api;
 import com.process.auth.app.sys.entity.PsAppMenuEntity;
 import com.process.auth.app.sys.mapper.PsAppUserMapper;
 import com.process.auth.app.sys.service.PsAppMenuService;
-import com.process.auth.app.sys.service.PsAppUserService;
 import com.process.auth.core.security.domain.PsAppUser;
 import com.process.common.util.WebUtil;
 import lombok.AllArgsConstructor;
@@ -11,8 +10,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -45,9 +42,10 @@ public class PsAppMenuApi {
     @GetMapping("/menus/all")
     public ResponseEntity<List<PsAppMenuEntity>> findMenus(@RequestParam(value = "roleId", required = false) Long roleId) {
         if (roleId != null) {
-            return WebUtil.okBuilder().body(PsAppMenuEntity.toTrees(menuService.menusOf(roleId)));
+            return WebUtil.okBuilder().body(menuService.menusByRoleId(roleId));
         }
-        return WebUtil.okBuilder().body(PsAppMenuEntity.toTrees(menuService.findList()));
+        return WebUtil.okBuilder().body(menuService.findList());
     }
+
 }
 

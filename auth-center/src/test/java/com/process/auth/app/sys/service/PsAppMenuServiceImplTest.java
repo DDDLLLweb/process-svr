@@ -15,23 +15,23 @@ import static org.junit.Assert.*;
  * @author Danfeng
  * @since 2019/1/5
  */
-@ContextConfiguration(classes = {
-        PsAppMenuServiceImpl.class,
-})
+//@ContextConfiguration(classes = {
+//        PsAppMenuServiceImpl.class,
+//})
 @Slf4j
 public class PsAppMenuServiceImplTest extends PsAuthTest {
 
-    @Autowired
-    private PsAppMenuService psAppMenuService;
+//    @Autowired
+//    private PsAppMenuService psAppMenuService;
 
-    @Test
-    public void menusByRoleId() {
-        List<PsAppMenuEntity> psAppMenuEntities = psAppMenuService.menusOf(1L);
-        log.info("psAppMenuEntities====> ", psAppMenuEntities);
-    }
+//    @Test
+//    public void menusByRoleId() {
+//        List<PsAppMenuEntity> psAppMenuEntities = psAppMenuService.menusOf(1L);
+//        log.info("psAppMenuEntities====> ", psAppMenuEntities);
+//    }
 
-    @Test
-    public void findList() {
-
-    }
+//    @Test
+//    public void findList() {
+//
+//    }
 }
